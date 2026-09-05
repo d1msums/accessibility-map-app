@@ -1,0 +1,28 @@
+### trust-decay
+POST http://127.0.0.1:54321/functions/v1/trust-decay
+Authorization: Bearer sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH
+apikey: sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH
+
+### verify-photo
+POST http://127.0.0.1:54321/functions/v1/verify-photo
+Authorization: Bearer sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH
+apikey: sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH
+Content-Type: application/json
+
+{"report_id":"6aa6ebab-967d-4f56-8fb5-eab9d68e5542","photo_url":"https://picsum.photos/400","claimed_type":"ramp"}
+
+### ingest-osm
+POST http://127.0.0.1:54321/functions/v1/ingest-osm
+Authorization: Bearer sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH
+apikey: sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH
+Content-Type: application/json
+
+{"elements":[]}
+
+### phase1-osm-baseline
+POST http://127.0.0.1:54321/functions/v1/phase1-osm-baseline
+Authorization: Bearer sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH
+apikey: sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH
+Content-Type: application/json
+
+{"minLat":3.058,"minLng":101.691,"maxLat":3.062,"maxLng":101.695}
