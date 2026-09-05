@@ -1,0 +1,2 @@
+# Supabase local dev config — run `npx supabase init` to regenerate fully if needed.
+project_id = "accessibility-map-app"
