@@ -1,0 +1,4 @@
+{
+  "_readme": "Optional. Add or override shop items here. Files live next to this manifest: <layer>/<id>.png (1024x1024, transparent). Keys: id, layer, name, nameMs, price, rarity (common|rare|epic|legendary), starter, minLevel, file (optional custom path), offset {x,y} in % (optional).",
+  "items": []
+}

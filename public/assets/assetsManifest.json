@@ -1,0 +1,5876 @@
+{
+  "$schema": "kitabantu/assets-manifest/v1",
+  "generatedAt": "2026-09-05T16:21:35.000Z",
+  "generator": "scripts/build-assets-manifest.js",
+  "baseUrl": "/assets/",
+  "license": {
+    "avatar_parts": {
+      "name": "Open Peeps",
+      "author": "Pablo Stanley",
+      "license": "CC0 1.0",
+      "url": "https://www.openpeeps.com/"
+    },
+    "ui_elements": {
+      "name": "Open Doodles",
+      "author": "Pablo Stanley",
+      "license": "CC0 1.0",
+      "url": "https://www.opendoodles.com/"
+    }
+  },
+  "summary": {
+    "ui_elements": 38,
+    "avatar_parts": 269,
+    "byLayer": {
+      "body": 38,
+      "pose": 65,
+      "head": 80,
+      "face": 41,
+      "facial-hair": 30,
+      "accessories": 15
+    },
+    "uiBySection": {
+      "reserve": 8,
+      "auth": 10,
+      "landing": 17,
+      "hero": 3
+    }
+  },
+  "ui_elements": {
+    "description": "Standalone 1080×1080 ink illustrations (Open Doodles style) for the landing page, hero section and auth pages. Use <img src=url> or inline; all are transparent-background SVGs.",
+    "sections": {
+      "hero": {
+        "label": "Hero section",
+        "pick": "hero-primary first; hero-alt rotate on reload",
+        "ids": [
+          "illustration/looking-ahead",
+          "illustration/pondering",
+          "illustration/walking-contradiction"
+        ]
+      },
+      "landing": {
+        "label": "Landing page tiles (features, stats, CTA)",
+        "ids": [
+          "illustration/chaotic-good",
+          "illustration/coffee",
+          "illustration/consumer",
+          "illustration/entertainment",
+          "illustration/experiments",
+          "illustration/feliz",
+          "illustration/fling",
+          "illustration/groceries",
+          "illustration/growth",
+          "illustration/jumping",
+          "illustration/late-for-class",
+          "illustration/mask",
+          "illustration/mechanical-love",
+          "illustration/plants",
+          "illustration/runner",
+          "illustration/whoa",
+          "illustration/wont-stop"
+        ]
+      },
+      "auth": {
+        "label": "Auth pages (login, signup steps, welcome, permissions, empty/error states)",
+        "ids": [
+          "illustration/bueno",
+          "illustration/chillin",
+          "illustration/chilly",
+          "illustration/ecto-plasma",
+          "illustration/meela-pantalones",
+          "illustration/new-beginnings",
+          "illustration/polka-pup",
+          "illustration/puppy",
+          "illustration/reflecting",
+          "illustration/waiting"
+        ]
+      },
+      "reserve": {
+        "label": "Available but not placed by default",
+        "ids": [
+          "illustration/astro",
+          "illustration/cube-leg",
+          "illustration/gamestation",
+          "illustration/kiddo",
+          "illustration/pacheco",
+          "illustration/pilot",
+          "illustration/roboto",
+          "illustration/rogue"
+        ]
+      }
+    },
+    "slots": {
+      "welcome": [
+        "illustration/bueno"
+      ],
+      "cta": [
+        "illustration/chaotic-good",
+        "illustration/jumping",
+        "illustration/whoa"
+      ],
+      "signup-helper": [
+        "illustration/chillin",
+        "illustration/chilly"
+      ],
+      "feature-helper": [
+        "illustration/coffee",
+        "illustration/late-for-class",
+        "illustration/runner",
+        "illustration/wont-stop"
+      ],
+      "feature-check": [
+        "illustration/consumer",
+        "illustration/groceries",
+        "illustration/mask"
+      ],
+      "error": [
+        "illustration/ecto-plasma"
+      ],
+      "stats": [
+        "illustration/entertainment",
+        "illustration/feliz"
+      ],
+      "feature-community": [
+        "illustration/experiments",
+        "illustration/fling",
+        "illustration/growth",
+        "illustration/mechanical-love",
+        "illustration/plants"
+      ],
+      "hero-primary": [
+        "illustration/looking-ahead"
+      ],
+      "permissions": [
+        "illustration/meela-pantalones"
+      ],
+      "signup": [
+        "illustration/new-beginnings"
+      ],
+      "empty-state": [
+        "illustration/polka-pup",
+        "illustration/puppy"
+      ],
+      "hero-alt": [
+        "illustration/pondering",
+        "illustration/walking-contradiction"
+      ],
+      "signup-oku": [
+        "illustration/reflecting"
+      ],
+      "login": [
+        "illustration/waiting"
+      ]
+    },
+    "count": 38,
+    "items": [
+      {
+        "id": "illustration/astro",
+        "slug": "astro",
+        "name": "Astro",
+        "section": "reserve",
+        "role": "unused",
+        "alt": "Person in an astronaut helmet",
+        "notes": "Off-theme (space); keep for 404 / \"lost\" page.",
+        "file": "illustrations/file.xml/Astro.svg",
+        "url": "/assets/illustrations/file.xml/Astro.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 167925,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/bueno",
+        "slug": "bueno",
+        "name": "Bueno",
+        "section": "auth",
+        "role": "welcome",
+        "alt": "Person crouching and pointing with a thumbs-up mood",
+        "notes": "Welcome modal after account creation.",
+        "file": "illustrations/file.xml/Bueno.svg",
+        "url": "/assets/illustrations/file.xml/Bueno.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 94055,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/chaotic-good",
+        "slug": "chaotic-good",
+        "name": "Chaotic Good",
+        "section": "landing",
+        "role": "cta",
+        "alt": "Person kicking playfully in a long coat",
+        "notes": "Playful CTA variant.",
+        "file": "illustrations/file.xml/Chaotic Good.svg",
+        "url": "/assets/illustrations/file.xml/Chaotic%20Good.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 118677,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/chillin",
+        "slug": "chillin",
+        "name": "Chillin",
+        "section": "auth",
+        "role": "signup-helper",
+        "alt": "Person standing casually with a prosthetic leg and a bag",
+        "notes": "Helper onboarding hero.",
+        "file": "illustrations/file.xml/Chillin.svg",
+        "url": "/assets/illustrations/file.xml/Chillin.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 85425,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/chilly",
+        "slug": "chilly",
+        "name": "Chilly",
+        "section": "auth",
+        "role": "signup-helper",
+        "alt": "Person in a big coat with headphones",
+        "notes": "Helper onboarding alternate.",
+        "file": "illustrations/file.xml/Chilly.svg",
+        "url": "/assets/illustrations/file.xml/Chilly.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 66010,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/coffee",
+        "slug": "coffee",
+        "name": "Coffee",
+        "section": "landing",
+        "role": "feature-helper",
+        "alt": "Person running while spilling a coffee",
+        "notes": "Light-hearted helper / streak tile.",
+        "file": "illustrations/file.xml/Coffee.svg",
+        "url": "/assets/illustrations/file.xml/Coffee.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 152019,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/consumer",
+        "slug": "consumer",
+        "name": "Consumer",
+        "section": "landing",
+        "role": "feature-check",
+        "alt": "Person carrying shopping bags",
+        "notes": "Shopping-mall accessibility section.",
+        "file": "illustrations/file.xml/Consumer.svg",
+        "url": "/assets/illustrations/file.xml/Consumer.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 88122,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/cube-leg",
+        "slug": "cube-leg",
+        "name": "Cube Leg",
+        "section": "reserve",
+        "role": "unused",
+        "alt": "Person in a long coat with a prosthetic leg",
+        "notes": "Possible OKU alt hero.",
+        "file": "illustrations/file.xml/Cube Leg.svg",
+        "url": "/assets/illustrations/file.xml/Cube%20Leg.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 74580,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/ecto-plasma",
+        "slug": "ecto-plasma",
+        "name": "Ecto Plasma",
+        "section": "auth",
+        "role": "error",
+        "alt": "Person walking away with a backpack",
+        "notes": "Logged-out / session-expired state.",
+        "file": "illustrations/file.xml/Ecto Plasma.svg",
+        "url": "/assets/illustrations/file.xml/Ecto%20Plasma.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 51272,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/entertainment",
+        "slug": "entertainment",
+        "name": "Entertainment",
+        "section": "landing",
+        "role": "stats",
+        "alt": "Person dancing with a phone",
+        "notes": "Live stats strip.",
+        "file": "illustrations/file.xml/Entertainment.svg",
+        "url": "/assets/illustrations/file.xml/Entertainment.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 65506,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/experiments",
+        "slug": "experiments",
+        "name": "Experiments",
+        "section": "landing",
+        "role": "feature-community",
+        "alt": "Two people sitting and building something together",
+        "notes": "Community / co-verification tile.",
+        "file": "illustrations/file.xml/Experiments.svg",
+        "url": "/assets/illustrations/file.xml/Experiments.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 124780,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/feliz",
+        "slug": "feliz",
+        "name": "Feliz",
+        "section": "landing",
+        "role": "stats",
+        "alt": "Person happily striding",
+        "notes": "Leaderboard / celebration.",
+        "file": "illustrations/file.xml/Feliz.svg",
+        "url": "/assets/illustrations/file.xml/Feliz.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 70787,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/fling",
+        "slug": "fling",
+        "name": "Fling",
+        "section": "landing",
+        "role": "feature-community",
+        "alt": "Two friends walking side by side",
+        "notes": "Helpers + OKU walking together.",
+        "file": "illustrations/file.xml/Fling.svg",
+        "url": "/assets/illustrations/file.xml/Fling.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 111892,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/gamestation",
+        "slug": "gamestation",
+        "name": "Gamestation",
+        "section": "reserve",
+        "role": "unused",
+        "alt": "Person walking holding a handheld console",
+        "notes": "Possible shop / character screen accent.",
+        "file": "illustrations/file.xml/Gamestation.svg",
+        "url": "/assets/illustrations/file.xml/Gamestation.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 63804,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/groceries",
+        "slug": "groceries",
+        "name": "Groceries",
+        "section": "landing",
+        "role": "feature-check",
+        "alt": "Person carrying grocery bags, prosthetic leg visible",
+        "notes": "Everyday errands – mall / toilet / lift checks.",
+        "file": "illustrations/file.xml/Groceries.svg",
+        "url": "/assets/illustrations/file.xml/Groceries.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 110476,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/growth",
+        "slug": "growth",
+        "name": "Growth",
+        "section": "landing",
+        "role": "feature-community",
+        "alt": "Person sitting cross-legged reading a book",
+        "notes": "Trust-decay explainer / \"how it works\".",
+        "file": "illustrations/file.xml/Growth.svg",
+        "url": "/assets/illustrations/file.xml/Growth.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 106363,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/jumping",
+        "slug": "jumping",
+        "name": "Jumping",
+        "section": "landing",
+        "role": "cta",
+        "alt": "Person jumping with joy wearing a backpack",
+        "notes": "Bottom call-to-action.",
+        "file": "illustrations/file.xml/Jumping.svg",
+        "url": "/assets/illustrations/file.xml/Jumping.svg",
+        "viewBox": "0 0 1080 1099",
+        "width": 1080,
+        "height": 1099,
+        "bytes": 114593,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/kiddo",
+        "slug": "kiddo",
+        "name": "Kiddo",
+        "section": "reserve",
+        "role": "unused",
+        "alt": "Child wearing an oversized helmet",
+        "notes": "Off-theme.",
+        "file": "illustrations/file.xml/Kiddo.svg",
+        "url": "/assets/illustrations/file.xml/Kiddo.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 174800,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/late-for-class",
+        "slug": "late-for-class",
+        "name": "Late For Class",
+        "section": "landing",
+        "role": "feature-helper",
+        "alt": "Person hurrying with headphones and a coat",
+        "notes": "On-the-way helper illustration.",
+        "file": "illustrations/file.xml/Late for Class.svg",
+        "url": "/assets/illustrations/file.xml/Late%20for%20Class.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 61657,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/looking-ahead",
+        "slug": "looking-ahead",
+        "name": "Looking Ahead",
+        "section": "hero",
+        "role": "hero-primary",
+        "alt": "A person sitting and looking ahead with a backpack",
+        "notes": "Main landing hero. Calm, forward-looking; leaves room for headline on the left.",
+        "file": "illustrations/file.xml/Looking Ahead.svg",
+        "url": "/assets/illustrations/file.xml/Looking%20Ahead.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 67738,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/mask",
+        "slug": "mask",
+        "name": "Mask",
+        "section": "landing",
+        "role": "feature-check",
+        "alt": "Person walking with a prosthetic leg and a backpack",
+        "notes": "\"Verified by a neighbour\" feature tile.",
+        "file": "illustrations/file.xml/Mask.svg",
+        "url": "/assets/illustrations/file.xml/Mask.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 80531,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/mechanical-love",
+        "slug": "mechanical-love",
+        "name": "Mechanical Love",
+        "section": "landing",
+        "role": "feature-community",
+        "alt": "Two people hugging",
+        "notes": "Thank-you / gratitude section.",
+        "file": "illustrations/file.xml/Mechanical Love.svg",
+        "url": "/assets/illustrations/file.xml/Mechanical%20Love.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 76058,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/meela-pantalones",
+        "slug": "meela-pantalones",
+        "name": "Meela Pantalones",
+        "section": "auth",
+        "role": "permissions",
+        "alt": "Person standing with hands in pockets",
+        "notes": "Permissions prompt (location / camera / mic).",
+        "file": "illustrations/file.xml/Meela Pantalones.svg",
+        "url": "/assets/illustrations/file.xml/Meela%20Pantalones.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 65630,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/new-beginnings",
+        "slug": "new-beginnings",
+        "name": "New Beginnings",
+        "section": "auth",
+        "role": "signup",
+        "alt": "Person relaxing in an armchair reading",
+        "notes": "Signup step 1 (role pick).",
+        "file": "illustrations/file.xml/New Beginnings.svg",
+        "url": "/assets/illustrations/file.xml/New%20Beginnings.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 88683,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/pacheco",
+        "slug": "pacheco",
+        "name": "Pacheco",
+        "section": "reserve",
+        "role": "unused",
+        "alt": "Person running with a big backpack rig",
+        "notes": "Possible \"on the way\" alt.",
+        "file": "illustrations/file.xml/Pacheco.svg",
+        "url": "/assets/illustrations/file.xml/Pacheco.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 131115,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/pilot",
+        "slug": "pilot",
+        "name": "Pilot",
+        "section": "reserve",
+        "role": "unused",
+        "alt": "Person in a pilot helmet",
+        "notes": "Off-theme; possible navigation-mode badge.",
+        "file": "illustrations/file.xml/Pilot.svg",
+        "url": "/assets/illustrations/file.xml/Pilot.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 154738,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/plants",
+        "slug": "plants",
+        "name": "Plants",
+        "section": "landing",
+        "role": "feature-community",
+        "alt": "Person carrying a large bunch of plants",
+        "notes": "Community growth / SDG 11 section.",
+        "file": "illustrations/file.xml/Plants.svg",
+        "url": "/assets/illustrations/file.xml/Plants.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 289719,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/polka-pup",
+        "slug": "polka-pup",
+        "name": "Polka Pup",
+        "section": "auth",
+        "role": "empty-state",
+        "alt": "Person in a polka-dot shirt cuddling a small dog",
+        "notes": "Empty feed / \"all caught up\".",
+        "file": "illustrations/file.xml/Polka Pup.svg",
+        "url": "/assets/illustrations/file.xml/Polka%20Pup.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 58895,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/pondering",
+        "slug": "pondering",
+        "name": "Pondering",
+        "section": "hero",
+        "role": "hero-alt",
+        "alt": "Person standing side-on with a backpack and prosthetic leg, thinking",
+        "notes": "Alternate hero / route-planning section.",
+        "file": "illustrations/file.xml/Pondering.svg",
+        "url": "/assets/illustrations/file.xml/Pondering.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 101085,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/puppy",
+        "slug": "puppy",
+        "name": "Puppy",
+        "section": "auth",
+        "role": "empty-state",
+        "alt": "Person sitting and hugging a puppy",
+        "notes": "Empty states (no requests yet) and mascot warmth.",
+        "file": "illustrations/file.xml/Puppy.svg",
+        "url": "/assets/illustrations/file.xml/Puppy.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 60064,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/reflecting",
+        "slug": "reflecting",
+        "name": "Reflecting",
+        "section": "auth",
+        "role": "signup-oku",
+        "alt": "Person sitting hugging their knees, thoughtful",
+        "notes": "OKU onboarding hero (needs step).",
+        "file": "illustrations/file.xml/Reflecting.svg",
+        "url": "/assets/illustrations/file.xml/Reflecting.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 117300,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/roboto",
+        "slug": "roboto",
+        "name": "Roboto",
+        "section": "reserve",
+        "role": "unused",
+        "alt": "Robot-suited figure jumping",
+        "notes": "Off-theme; AI assistant easter egg.",
+        "file": "illustrations/file.xml/Roboto.svg",
+        "url": "/assets/illustrations/file.xml/Roboto.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 123678,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/rogue",
+        "slug": "rogue",
+        "name": "Rogue",
+        "section": "reserve",
+        "role": "unused",
+        "alt": "Person in a sci-fi helmet",
+        "notes": "Off-theme.",
+        "file": "illustrations/file.xml/Rogue.svg",
+        "url": "/assets/illustrations/file.xml/Rogue.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 154003,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/runner",
+        "slug": "runner",
+        "name": "Runner",
+        "section": "landing",
+        "role": "feature-helper",
+        "alt": "Person running with a prosthetic leg and gear",
+        "notes": "Helper speed / \"answer within 30 min\" tile.",
+        "file": "illustrations/file.xml/Runner.svg",
+        "url": "/assets/illustrations/file.xml/Runner.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 111743,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/waiting",
+        "slug": "waiting",
+        "name": "Waiting",
+        "section": "auth",
+        "role": "login",
+        "alt": "Person sitting cross-legged, waiting calmly",
+        "notes": "Login page side panel.",
+        "file": "illustrations/file.xml/Waiting.svg",
+        "url": "/assets/illustrations/file.xml/Waiting.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 67311,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/walking-contradiction",
+        "slug": "walking-contradiction",
+        "name": "Walking Contradiction",
+        "section": "hero",
+        "role": "hero-alt",
+        "alt": "A person with a prosthetic leg walking confidently",
+        "notes": "Alternate hero for the OKU story; prosthesis is visible and celebrated.",
+        "file": "illustrations/file.xml/Walking Contradiction.svg",
+        "url": "/assets/illustrations/file.xml/Walking%20Contradiction.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 62029,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/whoa",
+        "slug": "whoa",
+        "name": "Whoa",
+        "section": "landing",
+        "role": "cta",
+        "alt": "Person leaning back in surprise, pointing",
+        "notes": "Reward / \"level up\" moment.",
+        "file": "illustrations/file.xml/Whoa.svg",
+        "url": "/assets/illustrations/file.xml/Whoa.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 66836,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      },
+      {
+        "id": "illustration/wont-stop",
+        "slug": "wont-stop",
+        "name": "Wont Stop",
+        "section": "landing",
+        "role": "feature-helper",
+        "alt": "Person striding forward with a bag",
+        "notes": "Helper on the move.",
+        "file": "illustrations/file.xml/Wont Stop.svg",
+        "url": "/assets/illustrations/file.xml/Wont%20Stop.svg",
+        "viewBox": "0 0 1080 1080",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 83129,
+        "monochrome": true,
+        "style": "open-doodles-ink"
+      }
+    ]
+  },
+  "avatar_parts": {
+    "layers": {
+      "body": {
+        "label": "Body (bust outfit)",
+        "labelMs": "Badan (pakaian separuh badan)",
+        "slot": "body",
+        "required": true,
+        "note": "Torso + arms with clothing; used for bust-style avatars. Mutually exclusive with pose.",
+        "count": 38,
+        "items": [
+          {
+            "id": "body/blazer-black-tee",
+            "slug": "blazer-black-tee",
+            "name": "Blazer Black Tee",
+            "layer": "body",
+            "file": "character/body/blazer-black-tee.svg",
+            "url": "/assets/character/body/blazer-black-tee.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 7550,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable",
+              "smart",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/button-pocket-shirt",
+            "slug": "button-pocket-shirt",
+            "name": "Button Pocket Shirt",
+            "layer": "body",
+            "file": "character/body/button-pocket-shirt.svg",
+            "url": "/assets/character/body/button-pocket-shirt.svg",
+            "viewBox": "0 0 818 765",
+            "width": 818,
+            "height": 765,
+            "bytes": 14481,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "casual",
+              "smart"
+            ]
+          },
+          {
+            "id": "body/button-shirt-1",
+            "slug": "button-shirt-1",
+            "name": "Button Shirt 1",
+            "layer": "body",
+            "file": "character/body/button-shirt-1.svg",
+            "url": "/assets/character/body/button-shirt-1.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 11138,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable",
+              "smart"
+            ]
+          },
+          {
+            "id": "body/button-shirt-2",
+            "slug": "button-shirt-2",
+            "name": "Button Shirt 2",
+            "layer": "body",
+            "file": "character/body/button-shirt-2.svg",
+            "url": "/assets/character/body/button-shirt-2.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 6477,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable",
+              "smart"
+            ]
+          },
+          {
+            "id": "body/button-shirt",
+            "slug": "button-shirt",
+            "name": "Button Shirt",
+            "layer": "body",
+            "file": "character/body/button-shirt.svg",
+            "url": "/assets/character/body/button-shirt.svg",
+            "viewBox": "0 0 818 784",
+            "width": 818,
+            "height": 784,
+            "bytes": 7839,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "casual",
+              "smart"
+            ]
+          },
+          {
+            "id": "body/coffee",
+            "slug": "coffee",
+            "name": "Coffee",
+            "layer": "body",
+            "file": "character/body/coffee.svg",
+            "url": "/assets/character/body/coffee.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 14439,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "holding-prop",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/computer",
+            "slug": "computer",
+            "name": "Computer",
+            "layer": "body",
+            "file": "character/body/computer.svg",
+            "url": "/assets/character/body/computer.svg",
+            "viewBox": "0 0 1021 757",
+            "width": 1021,
+            "height": 757,
+            "bytes": 20414,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "holding-prop"
+            ]
+          },
+          {
+            "id": "body/device",
+            "slug": "device",
+            "name": "Device",
+            "layer": "body",
+            "file": "character/body/device.svg",
+            "url": "/assets/character/body/device.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 18349,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "holding-prop",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/dress",
+            "slug": "dress",
+            "name": "Dress",
+            "layer": "body",
+            "file": "character/body/dress.svg",
+            "url": "/assets/character/body/dress.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 6160,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "culture:malaysia",
+              "dress",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/explaining",
+            "slug": "explaining",
+            "name": "Explaining",
+            "layer": "body",
+            "file": "character/body/explaining.svg",
+            "url": "/assets/character/body/explaining.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 14932,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "gesture",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/fur-jacket",
+            "slug": "fur-jacket",
+            "name": "Fur Jacket",
+            "layer": "body",
+            "file": "character/body/fur-jacket.svg",
+            "url": "/assets/character/body/fur-jacket.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 8027,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/gaming",
+            "slug": "gaming",
+            "name": "Gaming",
+            "layer": "body",
+            "file": "character/body/gaming.svg",
+            "url": "/assets/character/body/gaming.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 16888,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "holding-prop",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/gym-shirt",
+            "slug": "gym-shirt",
+            "name": "Gym Shirt",
+            "layer": "body",
+            "file": "character/body/gym-shirt.svg",
+            "url": "/assets/character/body/gym-shirt.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 5082,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/hoodie",
+            "slug": "hoodie",
+            "name": "Hoodie",
+            "layer": "body",
+            "file": "character/body/hoodie.svg",
+            "url": "/assets/character/body/hoodie.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 9011,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/jacket",
+            "slug": "jacket",
+            "name": "Jacket",
+            "layer": "body",
+            "file": "character/body/jacket.svg",
+            "url": "/assets/character/body/jacket.svg",
+            "viewBox": "0 0 818 774",
+            "width": 818,
+            "height": 774,
+            "bytes": 15342,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ba98de"
+            ],
+            "tags": [
+              "has-colour",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/killer",
+            "slug": "killer",
+            "name": "Killer",
+            "layer": "body",
+            "file": "character/body/killer.svg",
+            "url": "/assets/character/body/killer.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 7316,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "holding-prop",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/macbook",
+            "slug": "macbook",
+            "name": "Macbook",
+            "layer": "body",
+            "file": "character/body/macbook.svg",
+            "url": "/assets/character/body/macbook.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 16625,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "holding-prop",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/paper",
+            "slug": "paper",
+            "name": "Paper",
+            "layer": "body",
+            "file": "character/body/paper.svg",
+            "url": "/assets/character/body/paper.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 14960,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "holding-prop",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/pointing-up",
+            "slug": "pointing-up",
+            "name": "Pointing Up",
+            "layer": "body",
+            "file": "character/body/pointing-up.svg",
+            "url": "/assets/character/body/pointing-up.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 17235,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "gesture",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/polka-dot-jacket",
+            "slug": "polka-dot-jacket",
+            "name": "Polka Dot Jacket",
+            "layer": "body",
+            "file": "character/body/polka-dot-jacket.svg",
+            "url": "/assets/character/body/polka-dot-jacket.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 19179,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/polkadot-jacket",
+            "slug": "polkadot-jacket",
+            "name": "Polkadot Jacket",
+            "layer": "body",
+            "file": "character/body/polkadot-jacket.svg",
+            "url": "/assets/character/body/polkadot-jacket.svg",
+            "viewBox": "0 0 971 772",
+            "width": 971,
+            "height": 772,
+            "bytes": 20384,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ba98de"
+            ],
+            "tags": [
+              "has-colour",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/polo-and-sweater",
+            "slug": "polo-and-sweater",
+            "name": "Polo And Sweater",
+            "layer": "body",
+            "file": "character/body/polo-and-sweater.svg",
+            "url": "/assets/character/body/polo-and-sweater.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 7808,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable",
+              "smart",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/shirt-and-coat",
+            "slug": "shirt-and-coat",
+            "name": "Shirt And Coat",
+            "layer": "body",
+            "file": "character/body/shirt-and-coat.svg",
+            "url": "/assets/character/body/shirt-and-coat.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 15731,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable",
+              "smart",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/sporty-tee",
+            "slug": "sporty-tee",
+            "name": "Sporty Tee",
+            "layer": "body",
+            "file": "character/body/sporty-tee.svg",
+            "url": "/assets/character/body/sporty-tee.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 6745,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/striped-pocket-tee",
+            "slug": "striped-pocket-tee",
+            "name": "Striped Pocket Tee",
+            "layer": "body",
+            "file": "character/body/striped-pocket-tee.svg",
+            "url": "/assets/character/body/striped-pocket-tee.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 12274,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/striped-tee",
+            "slug": "striped-tee",
+            "name": "Striped Tee",
+            "layer": "body",
+            "file": "character/body/striped-tee.svg",
+            "url": "/assets/character/body/striped-tee.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 11489,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/stripped-pocket-tee",
+            "slug": "stripped-pocket-tee",
+            "name": "Stripped Pocket Tee",
+            "layer": "body",
+            "file": "character/body/stripped-pocket-tee.svg",
+            "url": "/assets/character/body/stripped-pocket-tee.svg",
+            "viewBox": "0 0 1171 763",
+            "width": 1171,
+            "height": 763,
+            "bytes": 12313,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ff0"
+            ],
+            "tags": [
+              "casual",
+              "has-colour"
+            ]
+          },
+          {
+            "id": "body/sweater-dots",
+            "slug": "sweater-dots",
+            "name": "Sweater Dots",
+            "layer": "body",
+            "file": "character/body/sweater-dots.svg",
+            "url": "/assets/character/body/sweater-dots.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 9472,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/sweater",
+            "slug": "sweater",
+            "name": "Sweater",
+            "layer": "body",
+            "file": "character/body/sweater.svg",
+            "url": "/assets/character/body/sweater.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 11295,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/tee-1",
+            "slug": "tee-1",
+            "name": "Tee 1",
+            "layer": "body",
+            "file": "character/body/tee-1.svg",
+            "url": "/assets/character/body/tee-1.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 6638,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/tee-2",
+            "slug": "tee-2",
+            "name": "Tee 2",
+            "layer": "body",
+            "file": "character/body/tee-2.svg",
+            "url": "/assets/character/body/tee-2.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 4523,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/tee-arms-crossed",
+            "slug": "tee-arms-crossed",
+            "name": "Tee Arms Crossed",
+            "layer": "body",
+            "file": "character/body/tee-arms-crossed.svg",
+            "url": "/assets/character/body/tee-arms-crossed.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 5093,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "gesture",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/tee-selena",
+            "slug": "tee-selena",
+            "name": "Tee Selena",
+            "layer": "body",
+            "file": "character/body/tee-selena.svg",
+            "url": "/assets/character/body/tee-selena.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 5207,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/tee",
+            "slug": "tee",
+            "name": "Tee",
+            "layer": "body",
+            "file": "character/body/tee.svg",
+            "url": "/assets/character/body/tee.svg",
+            "viewBox": "0 0 818 765",
+            "width": 818,
+            "height": 765,
+            "bytes": 7582,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "casual"
+            ]
+          },
+          {
+            "id": "body/thunder-t-shirt",
+            "slug": "thunder-t-shirt",
+            "name": "Thunder T Shirt",
+            "layer": "body",
+            "file": "character/body/thunder-t-shirt.svg",
+            "url": "/assets/character/body/thunder-t-shirt.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 6747,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "casual",
+              "paintable"
+            ]
+          },
+          {
+            "id": "body/thunder-tee",
+            "slug": "thunder-tee",
+            "name": "Thunder Tee",
+            "layer": "body",
+            "file": "character/body/thunder-tee.svg",
+            "url": "/assets/character/body/thunder-tee.svg",
+            "viewBox": "0 0 818 788",
+            "width": 818,
+            "height": 788,
+            "bytes": 6901,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "casual"
+            ]
+          },
+          {
+            "id": "body/turtleneck",
+            "slug": "turtleneck",
+            "name": "Turtleneck",
+            "layer": "body",
+            "file": "character/body/turtleneck.svg",
+            "url": "/assets/character/body/turtleneck.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 2737,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "warm"
+            ]
+          },
+          {
+            "id": "body/whatever",
+            "slug": "whatever",
+            "name": "Whatever",
+            "layer": "body",
+            "file": "character/body/whatever.svg",
+            "url": "/assets/character/body/whatever.svg",
+            "viewBox": "0 0 818 733",
+            "width": 818,
+            "height": 733,
+            "bytes": 11295,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "gesture",
+              "paintable"
+            ]
+          }
+        ]
+      },
+      "pose": {
+        "label": "Pose (full body)",
+        "labelMs": "Gaya (seluruh badan)",
+        "slot": "pose",
+        "required": false,
+        "note": "Full-body figure incl. legs; replaces body for full-body avatars. Sub-kinds: standing, sitting (incl. wheelchair, bike).",
+        "count": 65,
+        "kinds": {
+          "standing": 46,
+          "sitting": 19
+        },
+        "items": [
+          {
+            "id": "pose/bike",
+            "slug": "bike",
+            "name": "Bike",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/bike.svg",
+            "url": "/assets/character/pose/sitting/bike.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 36998,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "bike",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/closed-legs-1",
+            "slug": "closed-legs-1",
+            "name": "Closed Legs 1",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/closed-legs-1.svg",
+            "url": "/assets/character/pose/sitting/closed-legs-1.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 12394,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/closed-legs-2",
+            "slug": "closed-legs-2",
+            "name": "Closed Legs 2",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/closed-legs-2.svg",
+            "url": "/assets/character/pose/sitting/closed-legs-2.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 11249,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/closed-legs-color-pants",
+            "slug": "closed-legs-color-pants",
+            "name": "Closed Legs Color Pants",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/closed-legs-color-pants.svg",
+            "url": "/assets/character/pose/sitting/closed-legs-color-pants.svg",
+            "viewBox": "0 0 1534 1910",
+            "width": 1534,
+            "height": 1910,
+            "bytes": 17357,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/closed-legs-color-tee",
+            "slug": "closed-legs-color-tee",
+            "name": "Closed Legs Color Tee",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/closed-legs-color-tee.svg",
+            "url": "/assets/character/pose/sitting/closed-legs-color-tee.svg",
+            "viewBox": "0 0 1534 1910",
+            "width": 1534,
+            "height": 1910,
+            "bytes": 15817,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ba98de"
+            ],
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "has-colour",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/crossed-legs",
+            "slug": "crossed-legs",
+            "name": "Crossed Legs",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/crossed-legs.svg",
+            "url": "/assets/character/pose/sitting/crossed-legs.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 11819,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "arms-crossed",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/hands-back-1",
+            "slug": "hands-back-1",
+            "name": "Hands Back 1",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/hands-back-1.svg",
+            "url": "/assets/character/pose/sitting/hands-back-1.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 15858,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/hands-back-2",
+            "slug": "hands-back-2",
+            "name": "Hands Back 2",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/hands-back-2.svg",
+            "url": "/assets/character/pose/sitting/hands-back-2.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 13524,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/hands-back-color-pants",
+            "slug": "hands-back-color-pants",
+            "name": "Hands Back Color Pants",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/hands-back-color-pants.svg",
+            "url": "/assets/character/pose/sitting/hands-back-color-pants.svg",
+            "viewBox": "0 0 1534 1934",
+            "width": 1534,
+            "height": 1934,
+            "bytes": 18959,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/hands-back-colorful-tee",
+            "slug": "hands-back-colorful-tee",
+            "name": "Hands Back Colorful Tee",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/hands-back-colorful-tee.svg",
+            "url": "/assets/character/pose/sitting/hands-back-colorful-tee.svg",
+            "viewBox": "0 0 1534 1934",
+            "width": 1534,
+            "height": 1934,
+            "bytes": 16977,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/mid-1",
+            "slug": "mid-1",
+            "name": "Mid 1",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/mid-1.svg",
+            "url": "/assets/character/pose/sitting/mid-1.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 14771,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/mid-2",
+            "slug": "mid-2",
+            "name": "Mid 2",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/mid-2.svg",
+            "url": "/assets/character/pose/sitting/mid-2.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 12370,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/mid-color-pants",
+            "slug": "mid-color-pants",
+            "name": "Mid Color Pants",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/mid-color-pants.svg",
+            "url": "/assets/character/pose/sitting/mid-color-pants.svg",
+            "viewBox": "0 0 1650 1921",
+            "width": 1650,
+            "height": 1921,
+            "bytes": 20987,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/mid-color-tee",
+            "slug": "mid-color-tee",
+            "name": "Mid Color Tee",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/mid-color-tee.svg",
+            "url": "/assets/character/pose/sitting/mid-color-tee.svg",
+            "viewBox": "0 0 1650 1921",
+            "width": 1650,
+            "height": 1921,
+            "bytes": 14406,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/one-leg-color-pants",
+            "slug": "one-leg-color-pants",
+            "name": "One Leg Color Pants",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/one-leg-color-pants.svg",
+            "url": "/assets/character/pose/sitting/one-leg-color-pants.svg",
+            "viewBox": "0 0 1534 1934",
+            "width": 1534,
+            "height": 1934,
+            "bytes": 15266,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/one-leg-color-tee",
+            "slug": "one-leg-color-tee",
+            "name": "One Leg Color Tee",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/one-leg-color-tee.svg",
+            "url": "/assets/character/pose/sitting/one-leg-color-tee.svg",
+            "viewBox": "0 0 1534 1934",
+            "width": 1534,
+            "height": 1934,
+            "bytes": 15395,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/one-leg-up-1",
+            "slug": "one-leg-up-1",
+            "name": "One Leg Up 1",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/one-leg-up-1.svg",
+            "url": "/assets/character/pose/sitting/one-leg-up-1.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 11709,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/one-leg-up-2",
+            "slug": "one-leg-up-2",
+            "name": "One Leg Up 2",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/one-leg-up-2.svg",
+            "url": "/assets/character/pose/sitting/one-leg-up-2.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 12907,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/wheelchair",
+            "slug": "wheelchair",
+            "name": "Wheelchair",
+            "layer": "pose",
+            "kind": "sitting",
+            "file": "character/pose/sitting/wheelchair.svg",
+            "url": "/assets/character/pose/sitting/wheelchair.svg",
+            "viewBox": "0 0 1534 1856",
+            "width": 1534,
+            "height": 1856,
+            "bytes": 31399,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "a11y:wheelchair",
+              "paintable",
+              "wheelchair"
+            ]
+          },
+          {
+            "id": "pose/blazer-1",
+            "slug": "blazer-1",
+            "name": "Blazer 1",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/blazer-1.svg",
+            "url": "/assets/character/pose/standing/blazer-1.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 15877,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/blazer-2",
+            "slug": "blazer-2",
+            "name": "Blazer 2",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/blazer-2.svg",
+            "url": "/assets/character/pose/standing/blazer-2.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 15999,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/blazer-3",
+            "slug": "blazer-3",
+            "name": "Blazer 3",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/blazer-3.svg",
+            "url": "/assets/character/pose/standing/blazer-3.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 14324,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/blazer-4",
+            "slug": "blazer-4",
+            "name": "Blazer 4",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/blazer-4.svg",
+            "url": "/assets/character/pose/standing/blazer-4.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 13598,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/blazer-color-pants",
+            "slug": "blazer-color-pants",
+            "name": "Blazer Color Pants",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/blazer-color-pants.svg",
+            "url": "/assets/character/pose/standing/blazer-color-pants.svg",
+            "viewBox": "0 0 1645 2561",
+            "width": 1645,
+            "height": 2561,
+            "bytes": 20203,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ba98de"
+            ],
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "has-colour"
+            ]
+          },
+          {
+            "id": "pose/blazer-color-tee",
+            "slug": "blazer-color-tee",
+            "name": "Blazer Color Tee",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/blazer-color-tee.svg",
+            "url": "/assets/character/pose/standing/blazer-color-tee.svg",
+            "viewBox": "0 0 1645 2561",
+            "width": 1645,
+            "height": 2561,
+            "bytes": 19163,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ba98de"
+            ],
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "has-colour"
+            ]
+          },
+          {
+            "id": "pose/cross-arm-color-pants",
+            "slug": "cross-arm-color-pants",
+            "name": "Cross Arm Color Pants",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/cross-arm-color-pants.svg",
+            "url": "/assets/character/pose/standing/cross-arm-color-pants.svg",
+            "viewBox": "0 0 1645 2548",
+            "width": 1645,
+            "height": 2548,
+            "bytes": 11682,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "arms-crossed",
+              "colour-variant (paint region on tee/pants)"
+            ]
+          },
+          {
+            "id": "pose/cross-arm-color-tee",
+            "slug": "cross-arm-color-tee",
+            "name": "Cross Arm Color Tee",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/cross-arm-color-tee.svg",
+            "url": "/assets/character/pose/standing/cross-arm-color-tee.svg",
+            "viewBox": "0 0 1645 2507",
+            "width": 1645,
+            "height": 2507,
+            "bytes": 14318,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "arms-crossed",
+              "colour-variant (paint region on tee/pants)"
+            ]
+          },
+          {
+            "id": "pose/crossed-arms-1",
+            "slug": "crossed-arms-1",
+            "name": "Crossed Arms 1",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/crossed-arms-1.svg",
+            "url": "/assets/character/pose/standing/crossed-arms-1.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 12562,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "arms-crossed",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/crossed-arms-2",
+            "slug": "crossed-arms-2",
+            "name": "Crossed Arms 2",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/crossed-arms-2.svg",
+            "url": "/assets/character/pose/standing/crossed-arms-2.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 10015,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "arms-crossed",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/dancer",
+            "slug": "dancer",
+            "name": "Dancer",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/dancer.svg",
+            "url": "/assets/character/pose/standing/dancer.svg",
+            "viewBox": "0 0 1645 2529",
+            "width": 1645,
+            "height": 2529,
+            "bytes": 29283,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moving"
+            ]
+          },
+          {
+            "id": "pose/doc-hazardous",
+            "slug": "doc-hazardous",
+            "name": "Doc Hazardous",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/doc-hazardous.svg",
+            "url": "/assets/character/pose/standing/doc-hazardous.svg",
+            "viewBox": "0 0 1645 2528",
+            "width": 1645,
+            "height": 2528,
+            "bytes": 19923,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "medical"
+            ]
+          },
+          {
+            "id": "pose/doc-stethoscope",
+            "slug": "doc-stethoscope",
+            "name": "Doc Stethoscope",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/doc-stethoscope.svg",
+            "url": "/assets/character/pose/standing/doc-stethoscope.svg",
+            "viewBox": "0 0 1645 2557",
+            "width": 1645,
+            "height": 2557,
+            "bytes": 23490,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#1d2d52"
+            ],
+            "tags": [
+              "has-colour",
+              "medical"
+            ]
+          },
+          {
+            "id": "pose/doc",
+            "slug": "doc",
+            "name": "Doc",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/doc.svg",
+            "url": "/assets/character/pose/standing/doc.svg",
+            "viewBox": "0 0 1645 2550",
+            "width": 1645,
+            "height": 2550,
+            "bytes": 25236,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#1d2d52"
+            ],
+            "tags": [
+              "has-colour",
+              "medical"
+            ]
+          },
+          {
+            "id": "pose/easing-1",
+            "slug": "easing-1",
+            "name": "Easing 1",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/easing-1.svg",
+            "url": "/assets/character/pose/standing/easing-1.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 19733,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/easing-2",
+            "slug": "easing-2",
+            "name": "Easing 2",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/easing-2.svg",
+            "url": "/assets/character/pose/standing/easing-2.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 21861,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/easing-color-pants",
+            "slug": "easing-color-pants",
+            "name": "Easing Color Pants",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/easing-color-pants.svg",
+            "url": "/assets/character/pose/standing/easing-color-pants.svg",
+            "viewBox": "0 0 1645 2535",
+            "width": 1645,
+            "height": 2535,
+            "bytes": 27215,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ba98de"
+            ],
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "has-colour",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/easing-color-tee",
+            "slug": "easing-color-tee",
+            "name": "Easing Color Tee",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/easing-color-tee.svg",
+            "url": "/assets/character/pose/standing/easing-color-tee.svg",
+            "viewBox": "0 0 1645 2535",
+            "width": 1645,
+            "height": 2535,
+            "bytes": 23145,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ba98de"
+            ],
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "has-colour",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/pointing-finger-1",
+            "slug": "pointing-finger-1",
+            "name": "Pointing Finger 1",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/pointing-finger-1.svg",
+            "url": "/assets/character/pose/standing/pointing-finger-1.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 15454,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "gesture",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/pointing-finger-2",
+            "slug": "pointing-finger-2",
+            "name": "Pointing Finger 2",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/pointing-finger-2.svg",
+            "url": "/assets/character/pose/standing/pointing-finger-2.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 13401,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "gesture",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/pointing-finger-color-pants",
+            "slug": "pointing-finger-color-pants",
+            "name": "Pointing Finger Color Pants",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/pointing-finger-color-pants.svg",
+            "url": "/assets/character/pose/standing/pointing-finger-color-pants.svg",
+            "viewBox": "0 0 1645 2522",
+            "width": 1645,
+            "height": 2522,
+            "bytes": 22053,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "gesture"
+            ]
+          },
+          {
+            "id": "pose/pointing-finger-color-tee",
+            "slug": "pointing-finger-color-tee",
+            "name": "Pointing Finger Color Tee",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/pointing-finger-color-tee.svg",
+            "url": "/assets/character/pose/standing/pointing-finger-color-tee.svg",
+            "viewBox": "0 0 1645 2520",
+            "width": 1645,
+            "height": 2520,
+            "bytes": 19996,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "gesture"
+            ]
+          },
+          {
+            "id": "pose/polka-dots",
+            "slug": "polka-dots",
+            "name": "Polka Dots",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/polka-dots.svg",
+            "url": "/assets/character/pose/standing/polka-dots.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 13025,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/polkadots",
+            "slug": "polkadots",
+            "name": "Polkadots",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/polkadots.svg",
+            "url": "/assets/character/pose/standing/polkadots.svg",
+            "viewBox": "0 0 1645 2521",
+            "width": 1645,
+            "height": 2521,
+            "bytes": 14331,
+            "monochrome": true,
+            "paintable": false,
+            "tags": []
+          },
+          {
+            "id": "pose/prothesis-color-pants",
+            "slug": "prothesis-color-pants",
+            "name": "Prothesis Color Pants",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/prothesis-color-pants.svg",
+            "url": "/assets/character/pose/standing/prothesis-color-pants.svg",
+            "viewBox": "0 0 1645 2555",
+            "width": 1645,
+            "height": 2555,
+            "bytes": 23156,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ba98de"
+            ],
+            "tags": [
+              "a11y:prosthesis",
+              "colour-variant (paint region on tee/pants)",
+              "has-colour",
+              "prosthesis"
+            ]
+          },
+          {
+            "id": "pose/prothesis-color-tee",
+            "slug": "prothesis-color-tee",
+            "name": "Prothesis Color Tee",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/prothesis-color-tee.svg",
+            "url": "/assets/character/pose/standing/prothesis-color-tee.svg",
+            "viewBox": "0 0 1645 2555",
+            "width": 1645,
+            "height": 2555,
+            "bytes": 22604,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ba98de"
+            ],
+            "tags": [
+              "a11y:prosthesis",
+              "colour-variant (paint region on tee/pants)",
+              "has-colour",
+              "prosthesis"
+            ]
+          },
+          {
+            "id": "pose/resting-1",
+            "slug": "resting-1",
+            "name": "Resting 1",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/resting-1.svg",
+            "url": "/assets/character/pose/standing/resting-1.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 12899,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/resting-2",
+            "slug": "resting-2",
+            "name": "Resting 2",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/resting-2.svg",
+            "url": "/assets/character/pose/standing/resting-2.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 14427,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/resting-color-pants",
+            "slug": "resting-color-pants",
+            "name": "Resting Color Pants",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/resting-color-pants.svg",
+            "url": "/assets/character/pose/standing/resting-color-pants.svg",
+            "viewBox": "0 0 1645 2532",
+            "width": 1645,
+            "height": 2532,
+            "bytes": 15831,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/resting-color-tee",
+            "slug": "resting-color-tee",
+            "name": "Resting Color Tee",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/resting-color-tee.svg",
+            "url": "/assets/character/pose/standing/resting-color-tee.svg",
+            "viewBox": "0 0 1645 2532",
+            "width": 1645,
+            "height": 2532,
+            "bytes": 16895,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "relaxed"
+            ]
+          },
+          {
+            "id": "pose/robot-dance-1",
+            "slug": "robot-dance-1",
+            "name": "Robot Dance 1",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/robot-dance-1.svg",
+            "url": "/assets/character/pose/standing/robot-dance-1.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 19963,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "moving",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/robot-dance-2",
+            "slug": "robot-dance-2",
+            "name": "Robot Dance 2",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/robot-dance-2.svg",
+            "url": "/assets/character/pose/standing/robot-dance-2.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 16469,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "moving",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/robot-dance-3",
+            "slug": "robot-dance-3",
+            "name": "Robot Dance 3",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/robot-dance-3.svg",
+            "url": "/assets/character/pose/standing/robot-dance-3.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 20998,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "moving",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/shirt-1",
+            "slug": "shirt-1",
+            "name": "Shirt 1",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/shirt-1.svg",
+            "url": "/assets/character/pose/standing/shirt-1.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 22656,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/shirt-2",
+            "slug": "shirt-2",
+            "name": "Shirt 2",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/shirt-2.svg",
+            "url": "/assets/character/pose/standing/shirt-2.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 20264,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/shirt-3",
+            "slug": "shirt-3",
+            "name": "Shirt 3",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/shirt-3.svg",
+            "url": "/assets/character/pose/standing/shirt-3.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 13101,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/shirt-4",
+            "slug": "shirt-4",
+            "name": "Shirt 4",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/shirt-4.svg",
+            "url": "/assets/character/pose/standing/shirt-4.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 11059,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/shirt-color-pants",
+            "slug": "shirt-color-pants",
+            "name": "Shirt Color Pants",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/shirt-color-pants.svg",
+            "url": "/assets/character/pose/standing/shirt-color-pants.svg",
+            "viewBox": "0 0 1645 2580",
+            "width": 1645,
+            "height": 2580,
+            "bytes": 14863,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)"
+            ]
+          },
+          {
+            "id": "pose/shirt-color-tee",
+            "slug": "shirt-color-tee",
+            "name": "Shirt Color Tee",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/shirt-color-tee.svg",
+            "url": "/assets/character/pose/standing/shirt-color-tee.svg",
+            "viewBox": "0 0 1645 2580",
+            "width": 1645,
+            "height": 2580,
+            "bytes": 16111,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)"
+            ]
+          },
+          {
+            "id": "pose/shirt-prothesis-color-pants",
+            "slug": "shirt-prothesis-color-pants",
+            "name": "Shirt Prothesis Color Pants",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/shirt-prothesis-color-pants.svg",
+            "url": "/assets/character/pose/standing/shirt-prothesis-color-pants.svg",
+            "viewBox": "0 0 1645 2562",
+            "width": 1645,
+            "height": 2562,
+            "bytes": 25294,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#9ddadb"
+            ],
+            "tags": [
+              "a11y:prosthesis",
+              "colour-variant (paint region on tee/pants)",
+              "has-colour",
+              "prosthesis"
+            ]
+          },
+          {
+            "id": "pose/shirt-prothesis-color-tee",
+            "slug": "shirt-prothesis-color-tee",
+            "name": "Shirt Prothesis Color Tee",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/shirt-prothesis-color-tee.svg",
+            "url": "/assets/character/pose/standing/shirt-prothesis-color-tee.svg",
+            "viewBox": "0 0 1645 2564",
+            "width": 1645,
+            "height": 2564,
+            "bytes": 28171,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#9ddadb"
+            ],
+            "tags": [
+              "a11y:prosthesis",
+              "colour-variant (paint region on tee/pants)",
+              "has-colour",
+              "prosthesis"
+            ]
+          },
+          {
+            "id": "pose/walking-1",
+            "slug": "walking-1",
+            "name": "Walking 1",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/walking-1.svg",
+            "url": "/assets/character/pose/standing/walking-1.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 10634,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "moving",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/walking-2",
+            "slug": "walking-2",
+            "name": "Walking 2",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/walking-2.svg",
+            "url": "/assets/character/pose/standing/walking-2.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 11016,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "moving",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/walking-3",
+            "slug": "walking-3",
+            "name": "Walking 3",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/walking-3.svg",
+            "url": "/assets/character/pose/standing/walking-3.svg",
+            "viewBox": "0 0 1645 2500",
+            "width": 1645,
+            "height": 2500,
+            "bytes": 10373,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "moving",
+              "paintable"
+            ]
+          },
+          {
+            "id": "pose/walking-color-pants",
+            "slug": "walking-color-pants",
+            "name": "Walking Color Pants",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/walking-color-pants.svg",
+            "url": "/assets/character/pose/standing/walking-color-pants.svg",
+            "viewBox": "0 0 1645 2536",
+            "width": 1645,
+            "height": 2536,
+            "bytes": 14869,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "moving"
+            ]
+          },
+          {
+            "id": "pose/walking-color-tee",
+            "slug": "walking-color-tee",
+            "name": "Walking Color Tee",
+            "layer": "pose",
+            "kind": "standing",
+            "file": "character/pose/standing/walking-color-tee.svg",
+            "url": "/assets/character/pose/standing/walking-color-tee.svg",
+            "viewBox": "0 0 1645 2536",
+            "width": 1645,
+            "height": 2536,
+            "bytes": 13889,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "colour-variant (paint region on tee/pants)",
+              "moving"
+            ]
+          }
+        ]
+      },
+      "head": {
+        "label": "Head & hair",
+        "labelMs": "Kepala & rambut",
+        "slot": "head",
+        "required": true,
+        "note": "Hair / hijab / turban / hats. Face, facial hair and accessories are anchored relative to this atom.",
+        "count": 80,
+        "items": [
+          {
+            "id": "head/afro",
+            "slug": "afro",
+            "name": "Afro",
+            "layer": "head",
+            "file": "character/head/afro.svg",
+            "url": "/assets/character/head/afro.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4947,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/bald",
+            "slug": "bald",
+            "name": "Bald",
+            "layer": "head",
+            "file": "character/head/bald.svg",
+            "url": "/assets/character/head/bald.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 3310,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/bangs-2",
+            "slug": "bangs-2",
+            "name": "Bangs 2",
+            "layer": "head",
+            "file": "character/head/bangs-2.svg",
+            "url": "/assets/character/head/bangs-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 1933,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/bangs-two",
+            "slug": "bangs-two",
+            "name": "Bangs Two",
+            "layer": "head",
+            "file": "character/head/bangs-two.svg",
+            "url": "/assets/character/head/bangs-two.svg",
+            "viewBox": "0 0 523 567",
+            "width": 523,
+            "height": 567,
+            "bytes": 1786,
+            "monochrome": true,
+            "paintable": false,
+            "tags": []
+          },
+          {
+            "id": "head/bangs",
+            "slug": "bangs",
+            "name": "Bangs",
+            "layer": "head",
+            "file": "character/head/bangs.svg",
+            "url": "/assets/character/head/bangs.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 7670,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/bantu-knots",
+            "slug": "bantu-knots",
+            "name": "Bantu Knots",
+            "layer": "head",
+            "file": "character/head/bantu-knots.svg",
+            "url": "/assets/character/head/bantu-knots.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 10810,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/beanie",
+            "slug": "beanie",
+            "name": "Beanie",
+            "layer": "head",
+            "file": "character/head/beanie.svg",
+            "url": "/assets/character/head/beanie.svg",
+            "viewBox": "0 0 489 567",
+            "width": 489,
+            "height": 567,
+            "bytes": 6441,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#c93305"
+            ],
+            "tags": [
+              "has-colour",
+              "hat"
+            ]
+          },
+          {
+            "id": "head/bear",
+            "slug": "bear",
+            "name": "Bear",
+            "layer": "head",
+            "file": "character/head/bear.svg",
+            "url": "/assets/character/head/bear.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 7860,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/bun-2",
+            "slug": "bun-2",
+            "name": "Bun 2",
+            "layer": "head",
+            "file": "character/head/bun-2.svg",
+            "url": "/assets/character/head/bun-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 7279,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "bun",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/bun-clip",
+            "slug": "bun-clip",
+            "name": "Bun Clip",
+            "layer": "head",
+            "file": "character/head/bun-clip.svg",
+            "url": "/assets/character/head/bun-clip.svg",
+            "viewBox": "0 0 504 633",
+            "width": 504,
+            "height": 633,
+            "bytes": 17577,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#c93305"
+            ],
+            "tags": [
+              "bun",
+              "has-colour"
+            ]
+          },
+          {
+            "id": "head/bun-knots",
+            "slug": "bun-knots",
+            "name": "Bun Knots",
+            "layer": "head",
+            "file": "character/head/bun-knots.svg",
+            "url": "/assets/character/head/bun-knots.svg",
+            "viewBox": "0 0 507 595",
+            "width": 507,
+            "height": 595,
+            "bytes": 13329,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "bun",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/bun-two",
+            "slug": "bun-two",
+            "name": "Bun Two",
+            "layer": "head",
+            "file": "character/head/bun-two.svg",
+            "url": "/assets/character/head/bun-two.svg",
+            "viewBox": "0 0 574 664",
+            "width": 574,
+            "height": 664,
+            "bytes": 7292,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#c93305"
+            ],
+            "tags": [
+              "bun",
+              "has-colour"
+            ]
+          },
+          {
+            "id": "head/bun",
+            "slug": "bun",
+            "name": "Bun",
+            "layer": "head",
+            "file": "character/head/bun.svg",
+            "url": "/assets/character/head/bun.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 17286,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "bun",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/buns",
+            "slug": "buns",
+            "name": "Buns",
+            "layer": "head",
+            "file": "character/head/buns.svg",
+            "url": "/assets/character/head/buns.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 12502,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "bun",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/color-bun",
+            "slug": "color-bun",
+            "name": "Color Bun",
+            "layer": "head",
+            "file": "character/head/color-bun.svg",
+            "url": "/assets/character/head/color-bun.svg",
+            "viewBox": "0 0 499 567",
+            "width": 499,
+            "height": 567,
+            "bytes": 4811,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "bun"
+            ]
+          },
+          {
+            "id": "head/color-medium",
+            "slug": "color-medium",
+            "name": "Color Medium",
+            "layer": "head",
+            "file": "character/head/color-medium.svg",
+            "url": "/assets/character/head/color-medium.svg",
+            "viewBox": "0 0 487 567",
+            "width": 487,
+            "height": 567,
+            "bytes": 3710,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "long"
+            ]
+          },
+          {
+            "id": "head/cornrows-2",
+            "slug": "cornrows-2",
+            "name": "Cornrows 2",
+            "layer": "head",
+            "file": "character/head/cornrows-2.svg",
+            "url": "/assets/character/head/cornrows-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 11436,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "textured"
+            ]
+          },
+          {
+            "id": "head/cornrows-light",
+            "slug": "cornrows-light",
+            "name": "Cornrows Light",
+            "layer": "head",
+            "file": "character/head/cornrows-light.svg",
+            "url": "/assets/character/head/cornrows-light.svg",
+            "viewBox": "0 0 523 580",
+            "width": 523,
+            "height": 580,
+            "bytes": 11527,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "textured"
+            ]
+          },
+          {
+            "id": "head/cornrows",
+            "slug": "cornrows",
+            "name": "Cornrows",
+            "layer": "head",
+            "file": "character/head/cornrows.svg",
+            "url": "/assets/character/head/cornrows.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 8622,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/doc-one",
+            "slug": "doc-one",
+            "name": "Doc One",
+            "layer": "head",
+            "file": "character/head/doc-one.svg",
+            "url": "/assets/character/head/doc-one.svg",
+            "viewBox": "0 0 490 567",
+            "width": 490,
+            "height": 567,
+            "bytes": 7413,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#8fa7df"
+            ],
+            "tags": [
+              "has-colour",
+              "medical"
+            ]
+          },
+          {
+            "id": "head/doc-three",
+            "slug": "doc-three",
+            "name": "Doc Three",
+            "layer": "head",
+            "file": "character/head/doc-three.svg",
+            "url": "/assets/character/head/doc-three.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 6928,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#8fa7df"
+            ],
+            "tags": [
+              "has-colour",
+              "medical"
+            ]
+          },
+          {
+            "id": "head/doc-two",
+            "slug": "doc-two",
+            "name": "Doc Two",
+            "layer": "head",
+            "file": "character/head/doc-two.svg",
+            "url": "/assets/character/head/doc-two.svg",
+            "viewBox": "0 0 484 567",
+            "width": 484,
+            "height": 567,
+            "bytes": 13209,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#8fa7df"
+            ],
+            "tags": [
+              "has-colour",
+              "medical"
+            ]
+          },
+          {
+            "id": "head/dreads-one",
+            "slug": "dreads-one",
+            "name": "Dreads One",
+            "layer": "head",
+            "file": "character/head/dreads-one.svg",
+            "url": "/assets/character/head/dreads-one.svg",
+            "viewBox": "0 0 542 567",
+            "width": 542,
+            "height": 567,
+            "bytes": 5276,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "textured"
+            ]
+          },
+          {
+            "id": "head/dreads-two",
+            "slug": "dreads-two",
+            "name": "Dreads Two",
+            "layer": "head",
+            "file": "character/head/dreads-two.svg",
+            "url": "/assets/character/head/dreads-two.svg",
+            "viewBox": "0 0 517 581",
+            "width": 517,
+            "height": 581,
+            "bytes": 5585,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "textured"
+            ]
+          },
+          {
+            "id": "head/flat-top-long",
+            "slug": "flat-top-long",
+            "name": "Flat Top Long",
+            "layer": "head",
+            "file": "character/head/flat-top-long.svg",
+            "url": "/assets/character/head/flat-top-long.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3637,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/flat-top",
+            "slug": "flat-top",
+            "name": "Flat Top",
+            "layer": "head",
+            "file": "character/head/flat-top.svg",
+            "url": "/assets/character/head/flat-top.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3393,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/gray-bun",
+            "slug": "gray-bun",
+            "name": "Gray Bun",
+            "layer": "head",
+            "file": "character/head/gray-bun.svg",
+            "url": "/assets/character/head/gray-bun.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 2686,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "a11y:elderly",
+              "bun",
+              "grey",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/gray-medium",
+            "slug": "gray-medium",
+            "name": "Gray Medium",
+            "layer": "head",
+            "file": "character/head/gray-medium.svg",
+            "url": "/assets/character/head/gray-medium.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 2945,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "a11y:elderly",
+              "grey",
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/gray-short",
+            "slug": "gray-short",
+            "name": "Gray Short",
+            "layer": "head",
+            "file": "character/head/gray-short.svg",
+            "url": "/assets/character/head/gray-short.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 6225,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "a11y:elderly",
+              "grey",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/hat-beanie",
+            "slug": "hat-beanie",
+            "name": "Hat Beanie",
+            "layer": "head",
+            "file": "character/head/hat-beanie.svg",
+            "url": "/assets/character/head/hat-beanie.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 5995,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "hat"
+            ]
+          },
+          {
+            "id": "head/hat-hip",
+            "slug": "hat-hip",
+            "name": "Hat Hip",
+            "layer": "head",
+            "file": "character/head/hat-hip.svg",
+            "url": "/assets/character/head/hat-hip.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3265,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "hat",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/hijab",
+            "slug": "hijab",
+            "name": "Hijab",
+            "layer": "head",
+            "file": "character/head/hijab.svg",
+            "url": "/assets/character/head/hijab.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3014,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "culture:malaysia",
+              "head-covering"
+            ]
+          },
+          {
+            "id": "head/long-afro",
+            "slug": "long-afro",
+            "name": "Long Afro",
+            "layer": "head",
+            "file": "character/head/long-afro.svg",
+            "url": "/assets/character/head/long-afro.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 7408,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/long-bangs",
+            "slug": "long-bangs",
+            "name": "Long Bangs",
+            "layer": "head",
+            "file": "character/head/long-bangs.svg",
+            "url": "/assets/character/head/long-bangs.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3971,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/long-curly",
+            "slug": "long-curly",
+            "name": "Long Curly",
+            "layer": "head",
+            "file": "character/head/long-curly.svg",
+            "url": "/assets/character/head/long-curly.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 5445,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/long-hair",
+            "slug": "long-hair",
+            "name": "Long Hair",
+            "layer": "head",
+            "file": "character/head/long-hair.svg",
+            "url": "/assets/character/head/long-hair.svg",
+            "viewBox": "0 0 599 702",
+            "width": 599,
+            "height": 702,
+            "bytes": 2900,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "long"
+            ]
+          },
+          {
+            "id": "head/long",
+            "slug": "long",
+            "name": "Long",
+            "layer": "head",
+            "file": "character/head/long.svg",
+            "url": "/assets/character/head/long.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3057,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/longbangs",
+            "slug": "longbangs",
+            "name": "Longbangs",
+            "layer": "head",
+            "file": "character/head/longbangs.svg",
+            "url": "/assets/character/head/longbangs.svg",
+            "viewBox": "0 0 548 802",
+            "width": 548,
+            "height": 802,
+            "bytes": 3821,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "long"
+            ]
+          },
+          {
+            "id": "head/medium-1",
+            "slug": "medium-1",
+            "name": "Medium 1",
+            "layer": "head",
+            "file": "character/head/medium-1.svg",
+            "url": "/assets/character/head/medium-1.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 2602,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/medium-2",
+            "slug": "medium-2",
+            "name": "Medium 2",
+            "layer": "head",
+            "file": "character/head/medium-2.svg",
+            "url": "/assets/character/head/medium-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3121,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/medium-3",
+            "slug": "medium-3",
+            "name": "Medium 3",
+            "layer": "head",
+            "file": "character/head/medium-3.svg",
+            "url": "/assets/character/head/medium-3.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4265,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/medium-bangs-2",
+            "slug": "medium-bangs-2",
+            "name": "Medium Bangs 2",
+            "layer": "head",
+            "file": "character/head/medium-bangs-2.svg",
+            "url": "/assets/character/head/medium-bangs-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 9741,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/medium-bangs-3",
+            "slug": "medium-bangs-3",
+            "name": "Medium Bangs 3",
+            "layer": "head",
+            "file": "character/head/medium-bangs-3.svg",
+            "url": "/assets/character/head/medium-bangs-3.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4346,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/medium-bangs-color",
+            "slug": "medium-bangs-color",
+            "name": "Medium Bangs Color",
+            "layer": "head",
+            "file": "character/head/medium-bangs-color.svg",
+            "url": "/assets/character/head/medium-bangs-color.svg",
+            "viewBox": "0 0 531 567",
+            "width": 531,
+            "height": 567,
+            "bytes": 14453,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "long"
+            ]
+          },
+          {
+            "id": "head/medium-bangs-one",
+            "slug": "medium-bangs-one",
+            "name": "Medium Bangs One",
+            "layer": "head",
+            "file": "character/head/medium-bangs-one.svg",
+            "url": "/assets/character/head/medium-bangs-one.svg",
+            "viewBox": "0 0 476 567",
+            "width": 476,
+            "height": 567,
+            "bytes": 4216,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "long"
+            ]
+          },
+          {
+            "id": "head/medium-bangs",
+            "slug": "medium-bangs",
+            "name": "Medium Bangs",
+            "layer": "head",
+            "file": "character/head/medium-bangs.svg",
+            "url": "/assets/character/head/medium-bangs.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4309,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/medium-one",
+            "slug": "medium-one",
+            "name": "Medium One",
+            "layer": "head",
+            "file": "character/head/medium-one.svg",
+            "url": "/assets/character/head/medium-one.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 2512,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "long"
+            ]
+          },
+          {
+            "id": "head/medium-straight",
+            "slug": "medium-straight",
+            "name": "Medium Straight",
+            "layer": "head",
+            "file": "character/head/medium-straight.svg",
+            "url": "/assets/character/head/medium-straight.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 2077,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "long",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/medium-three",
+            "slug": "medium-three",
+            "name": "Medium Three",
+            "layer": "head",
+            "file": "character/head/medium-three.svg",
+            "url": "/assets/character/head/medium-three.svg",
+            "viewBox": "0 0 606 573",
+            "width": 606,
+            "height": 573,
+            "bytes": 4192,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "long"
+            ]
+          },
+          {
+            "id": "head/medium-two",
+            "slug": "medium-two",
+            "name": "Medium Two",
+            "layer": "head",
+            "file": "character/head/medium-two.svg",
+            "url": "/assets/character/head/medium-two.svg",
+            "viewBox": "0 0 550 567",
+            "width": 550,
+            "height": 567,
+            "bytes": 2998,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "long"
+            ]
+          },
+          {
+            "id": "head/mohawk-2",
+            "slug": "mohawk-2",
+            "name": "Mohawk 2",
+            "layer": "head",
+            "file": "character/head/mohawk-2.svg",
+            "url": "/assets/character/head/mohawk-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 7065,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "styled"
+            ]
+          },
+          {
+            "id": "head/mohawk-knots",
+            "slug": "mohawk-knots",
+            "name": "Mohawk Knots",
+            "layer": "head",
+            "file": "character/head/mohawk-knots.svg",
+            "url": "/assets/character/head/mohawk-knots.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 9171,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "styled",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/mohawk",
+            "slug": "mohawk",
+            "name": "Mohawk",
+            "layer": "head",
+            "file": "character/head/mohawk.svg",
+            "url": "/assets/character/head/mohawk.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 5424,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "styled"
+            ]
+          },
+          {
+            "id": "head/no-hair-1",
+            "slug": "no-hair-1",
+            "name": "No Hair 1",
+            "layer": "head",
+            "file": "character/head/no-hair-1.svg",
+            "url": "/assets/character/head/no-hair-1.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3449,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/no-hair-2",
+            "slug": "no-hair-2",
+            "name": "No Hair 2",
+            "layer": "head",
+            "file": "character/head/no-hair-2.svg",
+            "url": "/assets/character/head/no-hair-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4838,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/no-hair-3",
+            "slug": "no-hair-3",
+            "name": "No Hair 3",
+            "layer": "head",
+            "file": "character/head/no-hair-3.svg",
+            "url": "/assets/character/head/no-hair-3.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4518,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/no-hair-three",
+            "slug": "no-hair-three",
+            "name": "No Hair Three",
+            "layer": "head",
+            "file": "character/head/no-hair-three.svg",
+            "url": "/assets/character/head/no-hair-three.svg",
+            "viewBox": "0 0 494 567",
+            "width": 494,
+            "height": 567,
+            "bytes": 5725,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#e8e1e1"
+            ],
+            "tags": [
+              "has-colour",
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/no-hair-two",
+            "slug": "no-hair-two",
+            "name": "No Hair Two",
+            "layer": "head",
+            "file": "character/head/no-hair-two.svg",
+            "url": "/assets/character/head/no-hair-two.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 4751,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/pomp",
+            "slug": "pomp",
+            "name": "Pomp",
+            "layer": "head",
+            "file": "character/head/pomp.svg",
+            "url": "/assets/character/head/pomp.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3984,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "styled"
+            ]
+          },
+          {
+            "id": "head/shaved-1",
+            "slug": "shaved-1",
+            "name": "Shaved 1",
+            "layer": "head",
+            "file": "character/head/shaved-1.svg",
+            "url": "/assets/character/head/shaved-1.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3250,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/shaved-2",
+            "slug": "shaved-2",
+            "name": "Shaved 2",
+            "layer": "head",
+            "file": "character/head/shaved-2.svg",
+            "url": "/assets/character/head/shaved-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4311,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/shaved-3",
+            "slug": "shaved-3",
+            "name": "Shaved 3",
+            "layer": "head",
+            "file": "character/head/shaved-3.svg",
+            "url": "/assets/character/head/shaved-3.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 6113,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/shaved-one",
+            "slug": "shaved-one",
+            "name": "Shaved One",
+            "layer": "head",
+            "file": "character/head/shaved-one.svg",
+            "url": "/assets/character/head/shaved-one.svg",
+            "viewBox": "0 0 478 567",
+            "width": 478,
+            "height": 567,
+            "bytes": 4071,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/shaved-three",
+            "slug": "shaved-three",
+            "name": "Shaved Three",
+            "layer": "head",
+            "file": "character/head/shaved-three.svg",
+            "url": "/assets/character/head/shaved-three.svg",
+            "viewBox": "0 0 504 598",
+            "width": 504,
+            "height": 598,
+            "bytes": 5979,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/shaved",
+            "slug": "shaved",
+            "name": "Shaved",
+            "layer": "head",
+            "file": "character/head/shaved.svg",
+            "url": "/assets/character/head/shaved.svg",
+            "viewBox": "0 0 474 582",
+            "width": 474,
+            "height": 582,
+            "bytes": 4196,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "short-or-none"
+            ]
+          },
+          {
+            "id": "head/short-1",
+            "slug": "short-1",
+            "name": "Short 1",
+            "layer": "head",
+            "file": "character/head/short-1.svg",
+            "url": "/assets/character/head/short-1.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3663,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/short-2",
+            "slug": "short-2",
+            "name": "Short 2",
+            "layer": "head",
+            "file": "character/head/short-2.svg",
+            "url": "/assets/character/head/short-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 3181,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/short-3",
+            "slug": "short-3",
+            "name": "Short 3",
+            "layer": "head",
+            "file": "character/head/short-3.svg",
+            "url": "/assets/character/head/short-3.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4668,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/short-4",
+            "slug": "short-4",
+            "name": "Short 4",
+            "layer": "head",
+            "file": "character/head/short-4.svg",
+            "url": "/assets/character/head/short-4.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 8117,
+            "monochrome": false,
+            "paintable": true,
+            "accentColours": [
+              "#4f66af"
+            ],
+            "tags": [
+              "has-colour",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/short-5",
+            "slug": "short-5",
+            "name": "Short 5",
+            "layer": "head",
+            "file": "character/head/short-5.svg",
+            "url": "/assets/character/head/short-5.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4210,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/short-five",
+            "slug": "short-five",
+            "name": "Short Five",
+            "layer": "head",
+            "file": "character/head/short-five.svg",
+            "url": "/assets/character/head/short-five.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 4199,
+            "monochrome": true,
+            "paintable": false,
+            "tags": []
+          },
+          {
+            "id": "head/short-four",
+            "slug": "short-four",
+            "name": "Short Four",
+            "layer": "head",
+            "file": "character/head/short-four.svg",
+            "url": "/assets/character/head/short-four.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 12112,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#4f66af"
+            ],
+            "tags": [
+              "has-colour"
+            ]
+          },
+          {
+            "id": "head/short-one",
+            "slug": "short-one",
+            "name": "Short One",
+            "layer": "head",
+            "file": "character/head/short-one.svg",
+            "url": "/assets/character/head/short-one.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 3563,
+            "monochrome": true,
+            "paintable": false,
+            "tags": []
+          },
+          {
+            "id": "head/short-three",
+            "slug": "short-three",
+            "name": "Short Three",
+            "layer": "head",
+            "file": "character/head/short-three.svg",
+            "url": "/assets/character/head/short-three.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 4637,
+            "monochrome": true,
+            "paintable": false,
+            "tags": []
+          },
+          {
+            "id": "head/short-two",
+            "slug": "short-two",
+            "name": "Short Two",
+            "layer": "head",
+            "file": "character/head/short-two.svg",
+            "url": "/assets/character/head/short-two.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 3050,
+            "monochrome": true,
+            "paintable": false,
+            "tags": []
+          },
+          {
+            "id": "head/turban",
+            "slug": "turban",
+            "name": "Turban",
+            "layer": "head",
+            "file": "character/head/turban.svg",
+            "url": "/assets/character/head/turban.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 4873,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "culture:malaysia",
+              "head-covering",
+              "paintable"
+            ]
+          },
+          {
+            "id": "head/twists-2",
+            "slug": "twists-2",
+            "name": "Twists 2",
+            "layer": "head",
+            "file": "character/head/twists-2.svg",
+            "url": "/assets/character/head/twists-2.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 5718,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/twists-two",
+            "slug": "twists-two",
+            "name": "Twists Two",
+            "layer": "head",
+            "file": "character/head/twists-two.svg",
+            "url": "/assets/character/head/twists-two.svg",
+            "viewBox": "0 0 480 567",
+            "width": 480,
+            "height": 567,
+            "bytes": 5668,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "textured"
+            ]
+          },
+          {
+            "id": "head/twists",
+            "slug": "twists",
+            "name": "Twists",
+            "layer": "head",
+            "file": "character/head/twists.svg",
+            "url": "/assets/character/head/twists.svg",
+            "viewBox": "0 0 473 567",
+            "width": 473,
+            "height": 567,
+            "bytes": 7350,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "paintable",
+              "textured"
+            ]
+          },
+          {
+            "id": "head/wavy",
+            "slug": "wavy",
+            "name": "Wavy",
+            "layer": "head",
+            "file": "character/head/wavy.svg",
+            "url": "/assets/character/head/wavy.svg",
+            "viewBox": "0 0 474 567",
+            "width": 474,
+            "height": 567,
+            "bytes": 4477,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "long"
+            ]
+          }
+        ]
+      },
+      "face": {
+        "label": "Face expression",
+        "labelMs": "Ekspresi wajah",
+        "slot": "face",
+        "required": true,
+        "note": "Eyes, nose, mouth. Placed at head + faceOffset.",
+        "count": 41,
+        "items": [
+          {
+            "id": "face/angry-fang",
+            "slug": "angry-fang",
+            "name": "Angry Fang",
+            "layer": "face",
+            "file": "character/face/angry-fang.svg",
+            "url": "/assets/character/face/angry-fang.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 1935,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "fantasy",
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/angry-with-fang",
+            "slug": "angry-with-fang",
+            "name": "Angry With Fang",
+            "layer": "face",
+            "file": "character/face/angry-with-fang.svg",
+            "url": "/assets/character/face/angry-with-fang.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2065,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "fantasy",
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/angry",
+            "slug": "angry",
+            "name": "Angry",
+            "layer": "face",
+            "file": "character/face/angry.svg",
+            "url": "/assets/character/face/angry.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2856,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/awe",
+            "slug": "awe",
+            "name": "Awe",
+            "layer": "face",
+            "file": "character/face/awe.svg",
+            "url": "/assets/character/face/awe.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 5079,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/bigsmile",
+            "slug": "bigsmile",
+            "name": "Bigsmile",
+            "layer": "face",
+            "file": "character/face/bigsmile.svg",
+            "url": "/assets/character/face/bigsmile.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 4484,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/blank",
+            "slug": "blank",
+            "name": "Blank",
+            "layer": "face",
+            "file": "character/face/blank.svg",
+            "url": "/assets/character/face/blank.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2368,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/calm-with-mask",
+            "slug": "calm-with-mask",
+            "name": "Calm With Mask",
+            "layer": "face",
+            "file": "character/face/calm-with-mask.svg",
+            "url": "/assets/character/face/calm-with-mask.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2059,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "mask",
+              "positive"
+            ]
+          },
+          {
+            "id": "face/calm",
+            "slug": "calm",
+            "name": "Calm",
+            "layer": "face",
+            "file": "character/face/calm.svg",
+            "url": "/assets/character/face/calm.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 3297,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/cheeky",
+            "slug": "cheeky",
+            "name": "Cheeky",
+            "layer": "face",
+            "file": "character/face/cheeky.svg",
+            "url": "/assets/character/face/cheeky.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2522,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/cheers-with-mask",
+            "slug": "cheers-with-mask",
+            "name": "Cheers With Mask",
+            "layer": "face",
+            "file": "character/face/cheers-with-mask.svg",
+            "url": "/assets/character/face/cheers-with-mask.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2450,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "mask",
+              "positive"
+            ]
+          },
+          {
+            "id": "face/concerned-fear",
+            "slug": "concerned-fear",
+            "name": "Concerned Fear",
+            "layer": "face",
+            "file": "character/face/concerned-fear.svg",
+            "url": "/assets/character/face/concerned-fear.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2168,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/concerned",
+            "slug": "concerned",
+            "name": "Concerned",
+            "layer": "face",
+            "file": "character/face/concerned.svg",
+            "url": "/assets/character/face/concerned.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2104,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/concernedfear",
+            "slug": "concernedfear",
+            "name": "Concernedfear",
+            "layer": "face",
+            "file": "character/face/concernedfear.svg",
+            "url": "/assets/character/face/concernedfear.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2247,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/contempt",
+            "slug": "contempt",
+            "name": "Contempt",
+            "layer": "face",
+            "file": "character/face/contempt.svg",
+            "url": "/assets/character/face/contempt.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2877,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/cute",
+            "slug": "cute",
+            "name": "Cute",
+            "layer": "face",
+            "file": "character/face/cute.svg",
+            "url": "/assets/character/face/cute.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2763,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/cyclops",
+            "slug": "cyclops",
+            "name": "Cyclops",
+            "layer": "face",
+            "file": "character/face/cyclops.svg",
+            "url": "/assets/character/face/cyclops.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2009,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "fantasy"
+            ]
+          },
+          {
+            "id": "face/driven",
+            "slug": "driven",
+            "name": "Driven",
+            "layer": "face",
+            "file": "character/face/driven.svg",
+            "url": "/assets/character/face/driven.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2044,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/eating-happy",
+            "slug": "eating-happy",
+            "name": "Eating Happy",
+            "layer": "face",
+            "file": "character/face/eating-happy.svg",
+            "url": "/assets/character/face/eating-happy.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2320,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/explaining",
+            "slug": "explaining",
+            "name": "Explaining",
+            "layer": "face",
+            "file": "character/face/explaining.svg",
+            "url": "/assets/character/face/explaining.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2668,
+            "monochrome": true,
+            "paintable": false,
+            "tags": []
+          },
+          {
+            "id": "face/eyes-closed",
+            "slug": "eyes-closed",
+            "name": "Eyes Closed",
+            "layer": "face",
+            "file": "character/face/eyes-closed.svg",
+            "url": "/assets/character/face/eyes-closed.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2103,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/fear",
+            "slug": "fear",
+            "name": "Fear",
+            "layer": "face",
+            "file": "character/face/fear.svg",
+            "url": "/assets/character/face/fear.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 3887,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/hectic",
+            "slug": "hectic",
+            "name": "Hectic",
+            "layer": "face",
+            "file": "character/face/hectic.svg",
+            "url": "/assets/character/face/hectic.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 4387,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/love-grin-teeth",
+            "slug": "love-grin-teeth",
+            "name": "Love Grin Teeth",
+            "layer": "face",
+            "file": "character/face/love-grin-teeth.svg",
+            "url": "/assets/character/face/love-grin-teeth.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2930,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/love-grin-tongue",
+            "slug": "love-grin-tongue",
+            "name": "Love Grin Tongue",
+            "layer": "face",
+            "file": "character/face/love-grin-tongue.svg",
+            "url": "/assets/character/face/love-grin-tongue.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2618,
+            "monochrome": false,
+            "paintable": false,
+            "accentColours": [
+              "#ff6c6c"
+            ],
+            "tags": [
+              "has-colour",
+              "positive"
+            ]
+          },
+          {
+            "id": "face/loving-grin-1",
+            "slug": "loving-grin-1",
+            "name": "Loving Grin 1",
+            "layer": "face",
+            "file": "character/face/loving-grin-1.svg",
+            "url": "/assets/character/face/loving-grin-1.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2613,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/loving-grin-2",
+            "slug": "loving-grin-2",
+            "name": "Loving Grin 2",
+            "layer": "face",
+            "file": "character/face/loving-grin-2.svg",
+            "url": "/assets/character/face/loving-grin-2.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2911,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/monster",
+            "slug": "monster",
+            "name": "Monster",
+            "layer": "face",
+            "file": "character/face/monster.svg",
+            "url": "/assets/character/face/monster.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 5058,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "fantasy"
+            ]
+          },
+          {
+            "id": "face/old",
+            "slug": "old",
+            "name": "Old",
+            "layer": "face",
+            "file": "character/face/old.svg",
+            "url": "/assets/character/face/old.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2933,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "a11y:elderly",
+              "elderly"
+            ]
+          },
+          {
+            "id": "face/rage",
+            "slug": "rage",
+            "name": "Rage",
+            "layer": "face",
+            "file": "character/face/rage.svg",
+            "url": "/assets/character/face/rage.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 1943,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/serious",
+            "slug": "serious",
+            "name": "Serious",
+            "layer": "face",
+            "file": "character/face/serious.svg",
+            "url": "/assets/character/face/serious.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 1723,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/smile-big",
+            "slug": "smile-big",
+            "name": "Smile Big",
+            "layer": "face",
+            "file": "character/face/smile-big.svg",
+            "url": "/assets/character/face/smile-big.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 4339,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/smile-lol",
+            "slug": "smile-lol",
+            "name": "Smile Lol",
+            "layer": "face",
+            "file": "character/face/smile-lol.svg",
+            "url": "/assets/character/face/smile-lol.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 3472,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/smile-teeth-gap",
+            "slug": "smile-teeth-gap",
+            "name": "Smile Teeth Gap",
+            "layer": "face",
+            "file": "character/face/smile-teeth-gap.svg",
+            "url": "/assets/character/face/smile-teeth-gap.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 3293,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/smile-teeth",
+            "slug": "smile-teeth",
+            "name": "Smile Teeth",
+            "layer": "face",
+            "file": "character/face/smile-teeth.svg",
+            "url": "/assets/character/face/smile-teeth.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 3376,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/smile-with-mask",
+            "slug": "smile-with-mask",
+            "name": "Smile With Mask",
+            "layer": "face",
+            "file": "character/face/smile-with-mask.svg",
+            "url": "/assets/character/face/smile-with-mask.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 1672,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "mask",
+              "positive"
+            ]
+          },
+          {
+            "id": "face/smile",
+            "slug": "smile",
+            "name": "Smile",
+            "layer": "face",
+            "file": "character/face/smile.svg",
+            "url": "/assets/character/face/smile.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2042,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/smilelol",
+            "slug": "smilelol",
+            "name": "Smilelol",
+            "layer": "face",
+            "file": "character/face/smilelol.svg",
+            "url": "/assets/character/face/smilelol.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 4381,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "positive"
+            ]
+          },
+          {
+            "id": "face/solemn",
+            "slug": "solemn",
+            "name": "Solemn",
+            "layer": "face",
+            "file": "character/face/solemn.svg",
+            "url": "/assets/character/face/solemn.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 3225,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/suspicious",
+            "slug": "suspicious",
+            "name": "Suspicious",
+            "layer": "face",
+            "file": "character/face/suspicious.svg",
+            "url": "/assets/character/face/suspicious.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2351,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/tired",
+            "slug": "tired",
+            "name": "Tired",
+            "layer": "face",
+            "file": "character/face/tired.svg",
+            "url": "/assets/character/face/tired.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2523,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          },
+          {
+            "id": "face/very-angry",
+            "slug": "very-angry",
+            "name": "Very Angry",
+            "layer": "face",
+            "file": "character/face/very-angry.svg",
+            "url": "/assets/character/face/very-angry.svg",
+            "viewBox": "0 0 289 293",
+            "width": 289,
+            "height": 293,
+            "bytes": 2980,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "neutral-or-negative"
+            ]
+          }
+        ]
+      },
+      "facial-hair": {
+        "label": "Facial hair",
+        "labelMs": "Bulu muka",
+        "slot": "facialHair",
+        "required": false,
+        "note": "Optional beard / moustache. Placed at head + facialHairOffset.",
+        "count": 30,
+        "items": [
+          {
+            "id": "facial-hair/chin",
+            "slug": "chin",
+            "name": "Chin",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/chin.svg",
+            "url": "/assets/character/facial-hair/chin.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 716,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "goatee"
+            ]
+          },
+          {
+            "id": "facial-hair/full-2",
+            "slug": "full-2",
+            "name": "Full 2",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/full-2.svg",
+            "url": "/assets/character/facial-hair/full-2.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 1734,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "beard"
+            ]
+          },
+          {
+            "id": "facial-hair/full-3",
+            "slug": "full-3",
+            "name": "Full 3",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/full-3.svg",
+            "url": "/assets/character/facial-hair/full-3.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 996,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "beard"
+            ]
+          },
+          {
+            "id": "facial-hair/full-4",
+            "slug": "full-4",
+            "name": "Full 4",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/full-4.svg",
+            "url": "/assets/character/facial-hair/full-4.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 2903,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "beard",
+              "paintable"
+            ]
+          },
+          {
+            "id": "facial-hair/full-color",
+            "slug": "full-color",
+            "name": "Full Color",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/full-color.svg",
+            "url": "/assets/character/facial-hair/full-color.svg",
+            "viewBox": "0 0 309 260",
+            "width": 309,
+            "height": 260,
+            "bytes": 2759,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "beard"
+            ]
+          },
+          {
+            "id": "facial-hair/full-max",
+            "slug": "full-max",
+            "name": "Full Max",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/full-max.svg",
+            "url": "/assets/character/facial-hair/full-max.svg",
+            "viewBox": "0 0 312 275",
+            "width": 312,
+            "height": 275,
+            "bytes": 857,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "beard"
+            ]
+          },
+          {
+            "id": "facial-hair/full-medium",
+            "slug": "full-medium",
+            "name": "Full Medium",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/full-medium.svg",
+            "url": "/assets/character/facial-hair/full-medium.svg",
+            "viewBox": "0 0 296 247",
+            "width": 296,
+            "height": 247,
+            "bytes": 1588,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "beard"
+            ]
+          },
+          {
+            "id": "facial-hair/full",
+            "slug": "full",
+            "name": "Full",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/full.svg",
+            "url": "/assets/character/facial-hair/full.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 1488,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "beard"
+            ]
+          },
+          {
+            "id": "facial-hair/goatee-1",
+            "slug": "goatee-1",
+            "name": "Goatee 1",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/goatee-1.svg",
+            "url": "/assets/character/facial-hair/goatee-1.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 1040,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "goatee"
+            ]
+          },
+          {
+            "id": "facial-hair/goatee-2",
+            "slug": "goatee-2",
+            "name": "Goatee 2",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/goatee-2.svg",
+            "url": "/assets/character/facial-hair/goatee-2.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 1037,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "goatee"
+            ]
+          },
+          {
+            "id": "facial-hair/goatee-full",
+            "slug": "goatee-full",
+            "name": "Goatee Full",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/goatee-full.svg",
+            "url": "/assets/character/facial-hair/goatee-full.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 870,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "beard",
+              "goatee"
+            ]
+          },
+          {
+            "id": "facial-hair/goatee",
+            "slug": "goatee",
+            "name": "Goatee",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/goatee.svg",
+            "url": "/assets/character/facial-hair/goatee.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 896,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "goatee"
+            ]
+          },
+          {
+            "id": "facial-hair/moustache-1",
+            "slug": "moustache-1",
+            "name": "Moustache 1",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/moustache-1.svg",
+            "url": "/assets/character/facial-hair/moustache-1.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 737,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/moustache-2",
+            "slug": "moustache-2",
+            "name": "Moustache 2",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/moustache-2.svg",
+            "url": "/assets/character/facial-hair/moustache-2.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 1033,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/moustache-3",
+            "slug": "moustache-3",
+            "name": "Moustache 3",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/moustache-3.svg",
+            "url": "/assets/character/facial-hair/moustache-3.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 698,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/moustache-4",
+            "slug": "moustache-4",
+            "name": "Moustache 4",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/moustache-4.svg",
+            "url": "/assets/character/facial-hair/moustache-4.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 1251,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/moustache-5",
+            "slug": "moustache-5",
+            "name": "Moustache 5",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/moustache-5.svg",
+            "url": "/assets/character/facial-hair/moustache-5.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 1060,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/moustache-6",
+            "slug": "moustache-6",
+            "name": "Moustache 6",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/moustache-6.svg",
+            "url": "/assets/character/facial-hair/moustache-6.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 764,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/moustache-7",
+            "slug": "moustache-7",
+            "name": "Moustache 7",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/moustache-7.svg",
+            "url": "/assets/character/facial-hair/moustache-7.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 951,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/moustache-8",
+            "slug": "moustache-8",
+            "name": "Moustache 8",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/moustache-8.svg",
+            "url": "/assets/character/facial-hair/moustache-8.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 929,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/moustache-9",
+            "slug": "moustache-9",
+            "name": "Moustache 9",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/moustache-9.svg",
+            "url": "/assets/character/facial-hair/moustache-9.svg",
+            "viewBox": "0 0 280 230",
+            "width": 280,
+            "height": 230,
+            "bytes": 1288,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "moustache",
+              "paintable"
+            ]
+          },
+          {
+            "id": "facial-hair/mustache-bull",
+            "slug": "mustache-bull",
+            "name": "Mustache Bull",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/mustache-bull.svg",
+            "url": "/assets/character/facial-hair/mustache-bull.svg",
+            "viewBox": "0 0 372 249",
+            "width": 372,
+            "height": 249,
+            "bytes": 537,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/mustache-eight",
+            "slug": "mustache-eight",
+            "name": "Mustache Eight",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/mustache-eight.svg",
+            "url": "/assets/character/facial-hair/mustache-eight.svg",
+            "viewBox": "0 0 817 297",
+            "width": 817,
+            "height": 297,
+            "bytes": 765,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/mustache-five",
+            "slug": "mustache-five",
+            "name": "Mustache Five",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/mustache-five.svg",
+            "url": "/assets/character/facial-hair/mustache-five.svg",
+            "viewBox": "0 0 297 230",
+            "width": 297,
+            "height": 230,
+            "bytes": 899,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/mustache-nine",
+            "slug": "mustache-nine",
+            "name": "Mustache Nine",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/mustache-nine.svg",
+            "url": "/assets/character/facial-hair/mustache-nine.svg",
+            "viewBox": "0 0 293 230",
+            "width": 293,
+            "height": 230,
+            "bytes": 1111,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/mustache-seven",
+            "slug": "mustache-seven",
+            "name": "Mustache Seven",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/mustache-seven.svg",
+            "url": "/assets/character/facial-hair/mustache-seven.svg",
+            "viewBox": "0 0 285 230",
+            "width": 285,
+            "height": 230,
+            "bytes": 798,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/mustache-six",
+            "slug": "mustache-six",
+            "name": "Mustache Six",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/mustache-six.svg",
+            "url": "/assets/character/facial-hair/mustache-six.svg",
+            "viewBox": "0 0 286 230",
+            "width": 286,
+            "height": 230,
+            "bytes": 618,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/mustache-thin-bull",
+            "slug": "mustache-thin-bull",
+            "name": "Mustache Thin Bull",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/mustache-thin-bull.svg",
+            "url": "/assets/character/facial-hair/mustache-thin-bull.svg",
+            "viewBox": "0 0 312 230",
+            "width": 312,
+            "height": 230,
+            "bytes": 1100,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/mustache-thin",
+            "slug": "mustache-thin",
+            "name": "Mustache Thin",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/mustache-thin.svg",
+            "url": "/assets/character/facial-hair/mustache-thin.svg",
+            "viewBox": "0 0 286 230",
+            "width": 286,
+            "height": 230,
+            "bytes": 577,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          },
+          {
+            "id": "facial-hair/mustache-yosemite",
+            "slug": "mustache-yosemite",
+            "name": "Mustache Yosemite",
+            "layer": "facial-hair",
+            "file": "character/facial-hair/mustache-yosemite.svg",
+            "url": "/assets/character/facial-hair/mustache-yosemite.svg",
+            "viewBox": "0 0 299 230",
+            "width": 299,
+            "height": 230,
+            "bytes": 878,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "moustache"
+            ]
+          }
+        ]
+      },
+      "accessories": {
+        "label": "Accessories",
+        "labelMs": "Aksesori",
+        "slot": "accessory",
+        "required": false,
+        "note": "Glasses, sunglasses, eyepatch. Placed at head + accessoriesOffset.",
+        "count": 15,
+        "items": [
+          {
+            "id": "accessories/eye-patch",
+            "slug": "eye-patch",
+            "name": "Eye Patch",
+            "layer": "accessories",
+            "file": "character/accessories/eye-patch.svg",
+            "url": "/assets/character/accessories/eye-patch.svg",
+            "viewBox": "0 0 392 198",
+            "width": 392,
+            "height": 198,
+            "bytes": 1279,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "a11y:visual",
+              "eyepatch"
+            ]
+          },
+          {
+            "id": "accessories/eyepatch",
+            "slug": "eyepatch",
+            "name": "Eyepatch",
+            "layer": "accessories",
+            "file": "character/accessories/eyepatch.svg",
+            "url": "/assets/character/accessories/eyepatch.svg",
+            "viewBox": "0 0 392 138",
+            "width": 392,
+            "height": 138,
+            "bytes": 1412,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "a11y:visual",
+              "eyepatch"
+            ]
+          },
+          {
+            "id": "accessories/glasses-2",
+            "slug": "glasses-2",
+            "name": "Glasses 2",
+            "layer": "accessories",
+            "file": "character/accessories/glasses-2.svg",
+            "url": "/assets/character/accessories/glasses-2.svg",
+            "viewBox": "0 0 392 138",
+            "width": 392,
+            "height": 138,
+            "bytes": 1375,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "glasses"
+            ]
+          },
+          {
+            "id": "accessories/glasses-3",
+            "slug": "glasses-3",
+            "name": "Glasses 3",
+            "layer": "accessories",
+            "file": "character/accessories/glasses-3.svg",
+            "url": "/assets/character/accessories/glasses-3.svg",
+            "viewBox": "0 0 392 138",
+            "width": 392,
+            "height": 138,
+            "bytes": 1618,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "glasses"
+            ]
+          },
+          {
+            "id": "accessories/glasses-4",
+            "slug": "glasses-4",
+            "name": "Glasses 4",
+            "layer": "accessories",
+            "file": "character/accessories/glasses-4.svg",
+            "url": "/assets/character/accessories/glasses-4.svg",
+            "viewBox": "0 0 392 138",
+            "width": 392,
+            "height": 138,
+            "bytes": 3789,
+            "monochrome": true,
+            "paintable": true,
+            "tags": [
+              "glasses",
+              "paintable"
+            ]
+          },
+          {
+            "id": "accessories/glasses-5",
+            "slug": "glasses-5",
+            "name": "Glasses 5",
+            "layer": "accessories",
+            "file": "character/accessories/glasses-5.svg",
+            "url": "/assets/character/accessories/glasses-5.svg",
+            "viewBox": "0 0 392 138",
+            "width": 392,
+            "height": 138,
+            "bytes": 1291,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "glasses"
+            ]
+          },
+          {
+            "id": "accessories/glasses-five",
+            "slug": "glasses-five",
+            "name": "Glasses Five",
+            "layer": "accessories",
+            "file": "character/accessories/glasses-five.svg",
+            "url": "/assets/character/accessories/glasses-five.svg",
+            "viewBox": "0 0 399 138",
+            "width": 399,
+            "height": 138,
+            "bytes": 1142,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "glasses"
+            ]
+          },
+          {
+            "id": "accessories/glasses-four",
+            "slug": "glasses-four",
+            "name": "Glasses Four",
+            "layer": "accessories",
+            "file": "character/accessories/glasses-four.svg",
+            "url": "/assets/character/accessories/glasses-four.svg",
+            "viewBox": "0 0 415 138",
+            "width": 415,
+            "height": 138,
+            "bytes": 3638,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "glasses"
+            ]
+          },
+          {
+            "id": "accessories/glasses-six",
+            "slug": "glasses-six",
+            "name": "Glasses Six",
+            "layer": "accessories",
+            "file": "character/accessories/glasses-six.svg",
+            "url": "/assets/character/accessories/glasses-six.svg",
+            "viewBox": "0 0 396 138",
+            "width": 396,
+            "height": 138,
+            "bytes": 1143,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "glasses"
+            ]
+          },
+          {
+            "id": "accessories/glasses-three",
+            "slug": "glasses-three",
+            "name": "Glasses Three",
+            "layer": "accessories",
+            "file": "character/accessories/glasses-three.svg",
+            "url": "/assets/character/accessories/glasses-three.svg",
+            "viewBox": "0 0 418 138",
+            "width": 418,
+            "height": 138,
+            "bytes": 1464,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "glasses"
+            ]
+          },
+          {
+            "id": "accessories/glasses-two",
+            "slug": "glasses-two",
+            "name": "Glasses Two",
+            "layer": "accessories",
+            "file": "character/accessories/glasses-two.svg",
+            "url": "/assets/character/accessories/glasses-two.svg",
+            "viewBox": "0 0 405 138",
+            "width": 405,
+            "height": 138,
+            "bytes": 1227,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "glasses"
+            ]
+          },
+          {
+            "id": "accessories/glasses",
+            "slug": "glasses",
+            "name": "Glasses",
+            "layer": "accessories",
+            "file": "character/accessories/glasses.svg",
+            "url": "/assets/character/accessories/glasses.svg",
+            "viewBox": "0 0 392 138",
+            "width": 392,
+            "height": 138,
+            "bytes": 1619,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "glasses"
+            ]
+          },
+          {
+            "id": "accessories/sunglasses-2",
+            "slug": "sunglasses-2",
+            "name": "Sunglasses 2",
+            "layer": "accessories",
+            "file": "character/accessories/sunglasses-2.svg",
+            "url": "/assets/character/accessories/sunglasses-2.svg",
+            "viewBox": "0 0 392 138",
+            "width": 392,
+            "height": 138,
+            "bytes": 1568,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "a11y:visual",
+              "sunglasses"
+            ]
+          },
+          {
+            "id": "accessories/sunglasses-two",
+            "slug": "sunglasses-two",
+            "name": "Sunglasses Two",
+            "layer": "accessories",
+            "file": "character/accessories/sunglasses-two.svg",
+            "url": "/assets/character/accessories/sunglasses-two.svg",
+            "viewBox": "0 0 418 138",
+            "width": 418,
+            "height": 138,
+            "bytes": 1408,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "a11y:visual",
+              "sunglasses"
+            ]
+          },
+          {
+            "id": "accessories/sunglasses",
+            "slug": "sunglasses",
+            "name": "Sunglasses",
+            "layer": "accessories",
+            "file": "character/accessories/sunglasses.svg",
+            "url": "/assets/character/accessories/sunglasses.svg",
+            "viewBox": "0 0 392 138",
+            "width": 392,
+            "height": 138,
+            "bytes": 1977,
+            "monochrome": true,
+            "paintable": false,
+            "tags": [
+              "a11y:visual",
+              "sunglasses"
+            ]
+          }
+        ]
+      }
+    },
+    "counts": {
+      "body": 38,
+      "pose": 65,
+      "head": 80,
+      "face": 41,
+      "facial-hair": 30,
+      "accessories": 15
+    },
+    "total": 269,
+    "composition": {
+      "description": "Translate each atom by these offsets inside one SVG canvas, bottom → top: pose|body, head, face, facial-hair, accessories. Offsets for face/facial-hair/accessories are relative to the head origin.",
+      "zOrder": [
+        "pose|body",
+        "head",
+        "face",
+        "facial-hair",
+        "accessories"
+      ],
+      "bust": {
+        "canvas": {
+          "width": 1136,
+          "height": 1533
+        },
+        "body": {
+          "x": 147,
+          "y": 639
+        },
+        "head": {
+          "x": 372,
+          "y": 180
+        }
+      },
+      "standing": {
+        "canvas": {
+          "width": 1179,
+          "height": 3291
+        },
+        "pose": {
+          "x": -121,
+          "y": 634
+        },
+        "head": {
+          "x": 404,
+          "y": 180
+        }
+      },
+      "sitting": {
+        "canvas": {
+          "width": 1647,
+          "height": 2500
+        },
+        "pose": {
+          "x": -81,
+          "y": 637
+        },
+        "head": {
+          "x": 345,
+          "y": 180
+        }
+      },
+      "sittingWide": {
+        "appliesTo": [
+          "pose/wheelchair",
+          "pose/bike"
+        ],
+        "canvas": {
+          "width": 3200,
+          "height": 3000
+        },
+        "pose": {
+          "x": 239,
+          "y": 637
+        },
+        "head": {
+          "x": 665,
+          "y": 180
+        }
+      },
+      "faceOffset": {
+        "x": 159,
+        "y": 186
+      },
+      "facialHairOffset": {
+        "x": 123,
+        "y": 338
+      },
+      "accessoriesOffset": {
+        "x": 47,
+        "y": 241
+      },
+      "recolour": {
+        "ink": [
+          "#000000",
+          "#000",
+          "#231f20"
+        ],
+        "paintRegionId": "🎨-Background",
+        "inkRegionId": "🖍-Ink",
+        "note": "Mono atoms expose a paintable background path (skin/cloth) and an ink path; colour variants use hard-coded hues listed in accentColours."
+      }
+    },
+    "defaults": {
+      "bust": {
+        "body": "body/hoodie",
+        "head": "head/short-1",
+        "face": "face/smile",
+        "facialHair": null,
+        "accessory": null
+      },
+      "oku": {
+        "wheelchair": {
+          "pose": "pose/wheelchair"
+        },
+        "visual": {
+          "accessory": "accessories/sunglasses"
+        },
+        "elderly": {
+          "face": "face/old",
+          "head": "head/gray-short"
+        }
+      }
+    }
+  }
+}

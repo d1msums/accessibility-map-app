@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f2f2f2" />
+  <title>KitaBantu — Is it accessible right now?</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23111'/%3E%3Cg fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='26' cy='42' r='10'/%3E%3Ccircle cx='28' cy='14' r='3.5'/%3E%3Cpath d='M28 20v14h14l6 12M28 26h10'/%3E%3C/g%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <link rel="stylesheet" href="/app.css?v=peeps18" />
+</head>
+<body>
+  <!-- ============ AUTH / LANDING ============ -->
+  <section id="auth" class="hidden"></section>
+
+  <!-- ============ APP ============ -->
+  <section id="app" class="hidden">
+    <header class="topbar">
+      <a class="logo" href="#/home"><span class="mark"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="17" r="4.5"/><circle cx="10" cy="4" r="1.5"/><path d="M10 7v6h6l3 6M10 10h5"/></svg></span><span>KitaBantu</span><span class="role-tag" id="roleTag"></span></a>
+      <span class="spacer"></span>
+      <button class="icon-btn" id="langBtn" title="Language / Bahasa"><span id="langLabel">BM</span></button>
+      <button class="icon-btn" id="notifBtn" aria-label="Notifications"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg><span class="dot hidden" id="notifDot"></span></button>
+      <button class="pts-pill coin-pill hidden" id="coinPill" title="Coins" onclick="location.hash='#/shop'"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v10m3-7.5c0-1-1.3-1.5-3-1.5s-3 .6-3 1.7c0 2.5 6 1.3 6 3.8 0 1.2-1.4 1.8-3 1.8s-3-.5-3-1.5"/></svg><b id="coinValue">0</b></button>
+      <button class="pts-pill" id="ptsPill" title="Points"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.7 6.3.8-4.6 4.3 1.2 6.2L12 17l-5.6 3 1.2-6.2L3 9.5l6.3-.8z"/></svg><span id="ptsValue">0</span></button>
+      <button id="meAvatar" aria-label="Profile"></button>
+    </header>
+    <div id="notifPanel" class="notif-panel hidden"></div>
+
+    <div class="shell">
+      <nav class="sidenav" id="sidenav"></nav>
+      <main id="view" aria-live="polite"></main>
+    </div>
+    <nav class="bottomnav" id="bottomnav"></nav>
+  </section>
+
+  <!-- map DOM lives outside #view so Leaflet keeps its state across tab switches -->
+  <div id="mapHost" class="hidden">
+    <div id="mapWrap">
+      <div id="map" role="application" aria-label="Accessibility map of Kuala Lumpur"></div>
+      <div class="map-top">
+        <div class="searchbar"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input type="text" id="searchInput" data-ph="search_ph" autocomplete="off" /><button class="btn btn-sm btn-black" id="routeToggle"><span data-i18n="route">Route</span></button><ul id="suggest" class="suggest hidden"></ul></div>
+        <div class="routerow hidden" id="routeRow">
+          <div class="searchbar"><span>A</span><input type="text" id="fromInput" data-ph="from_ph" autocomplete="off" /></div>
+          <div class="searchbar"><span>B</span><input type="text" id="toInput" data-ph="to_ph" autocomplete="off" /></div>
+          <button class="btn btn-sm btn-black" id="routeGo" data-i18n="plan">Plan</button>
+        </div>
+        <div class="needbar"><button class="need active" data-need="" data-i18n="need_all">All</button><button class="need" data-need="wheelchair"><span data-i18n="need_wheelchair">Wheelchair</span></button><button class="need" data-need="visual"><span data-i18n="need_visual">Low vision</span></button><button class="need" data-need="elderly"><span data-i18n="need_elderly">Elderly</span></button></div>
+      </div>
+      <div class="legend"><b data-i18n="legend_title">How much can you trust each pin?</b><div class="l"><i style="background:#111"></i><span data-i18n="b_verified">Verified recently</span></div><div class="l"><i style="background:#5f5f5f"></i><span data-i18n="b_aging">Aging</span></div><div class="l"><i style="background:#a8a8a8"></i><span data-i18n="b_old">Old</span></div><div class="l"><i style="background:#d9d9d9"></i><span data-i18n="b_expired">Expired</span></div><div class="muted" style="font-size:10px;margin-top:4px" data-i18n="legend_note"></div></div>
+      <div class="map-fabs">
+        <button class="fab small" id="fabPlaces" title="Around you"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-8-8 18-2-8z"/></svg></button>
+        <button class="fab small" id="fabList" title="Reports"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3.5 6h.5M3.5 12h.5M3.5 18h.5"/></svg></button>
+        <button class="fab small" id="fabLocate" title="My location"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.5"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
+        <button class="fab" id="fabReport"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg> <span class="fab-label" data-i18n="report">Report</span></button>
+      </div>
+      <div class="map-engine" id="mapEngine"></div>
+      <aside class="sheet" id="sheet"><div class="sheet-handle" id="sheetHandle"><i></i></div><div class="sheet-body" id="sheetBody"></div></aside>
+    </div>
+  </div>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true"><div class="modal-card" id="modalCard"></div></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <canvas id="confetti" class="hidden"></canvas>
+
+  <script src="/vendor/leaflet/leaflet.js"></script>
+  <script src="/js/storage-shim.js?v=peeps18"></script>
+  <script src="/js/i18n.js?v=peeps18"></script>
+  <script src="/js/icons.js?v=peeps18"></script>
+  <script src="/vendor/preact/preact.umd.js"></script>
+  <script src="/vendor/preact/hooks.umd.js"></script>
+  <script src="/js/avatar.js?v=peeps18"></script>
+  <script src="/js/peeps.js?v=peeps18"></script>
+  <script src="/js/avatar-builder.js?v=peeps18"></script>
+  <script src="/js/character.js?v=peeps18"></script>
+  <script src="/js/art.js?v=peeps18"></script>
+  <script src="/js/fx.js?v=peeps18"></script>
+  <script src="/js/gmap.js?v=peeps18"></script>
+  <script src="/js/map.js?v=peeps18"></script>
+  <script src="/js/guide.js?v=peeps18"></script>
+  <script src="/js/app.js?v=peeps18"></script>
+</body>
+</html>
