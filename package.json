@@ -1,0 +1,25 @@
+{
+  "name": "kitabantu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build:graph": "node scripts/build-graph.js",
+    "e2e": "python3 docs/flow-test.py",
+    "build:assets": "node scripts/build-assets-manifest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "KitaBantu \u2014 community-powered accessibility map with trust decay (Hackathon Sedia! SDG 11)",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.2"
+  }
+}

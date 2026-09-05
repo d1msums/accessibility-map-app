@@ -1,0 +1,4 @@
+Open Peeps — hand-drawn illustration library by Pablo Stanley (https://www.openpeeps.com/)
+License: CC0 1.0 Universal (public domain). No attribution required; given here with thanks.
+Atom SVGs (body, head, pose, face, facial-hair, accessories) obtained from
+https://github.com/Hantuhan/peepstudio (public/peeps/atoms), which redistributes the CC0 set.
