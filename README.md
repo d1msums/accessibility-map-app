@@ -268,37 +268,6 @@ Illustrations are drop-in the same way: `public/assets/illustrations/<slot>.png`
 (hero, helper, oku, permissions, empty_*, reward, levelup, welcome, cat_* mascot states).
 Spec + file list: `public/assets/character/README.md`.
 
-## Demo script (3 minutes)
-
-1. **Landing** — pick a role, *Continue*. Sign up as a new *Helper* (details → **build your
-   avatar**: hair, outfit, item, glasses, colour) → welcome reward, *Early Adopter* badge,
-   bento helper dashboard.
-2. **Helper (Raj)** — log in with one click. Tiles: open requests, points, 11-day streak, #1 this week.
-   Missions 0/1 · 1/2 · 1/1. Open *"Is the lift to the concourse working today?"* (Aisha,
-   needed today, ⚡ fast bonus running) → **Answer**: Yes, note, sample photo → **+130**
-   breakdown: answer 25 + photo 10 + fast 10 + streak 25 + two missions 60. Confetti.
-3. **OKU (Aisha)** — warm-tinted dashboard. The bell shows *Rajesh answered your question*. Open it,
-   read the answer with photo → **Say thank you** (+5 to Raj). Then **Ask**: pick
-   *Nu Sentral*, template *Is the accessible toilet open?*, urgency *today* → 🚀 sent;
-   every helper's board and bell updates instantly (SSE).
-4. **Map tab** — *Try: KL Sentral → MAB*: shortest 770 m scores 57 (blocked kerb), the
-   recommended 811 m detour scores 100 and only uses the walkway because of a fresh
-   *lift working* report. Profile → demo tools *+3 days*: the lift report decays, the
-   route becomes 1 596 m with a "re-confirm this report" hint. *Reset*.
-5. **Guide (on the phone, in Cyberjaya)** — allow location/camera/mic. Map tab shows the real
-   Google map around you; *Around you* lists DPulze, the bus stops, Hospital Cyberjaya…
-   Tap the mic: *"Bawa saya ke DPulze"* → the assistant answers in BM, draws the route and
-   starts speaking turns (*"Belok kanan dan teruskan sejauh 15 meter"*). Or open Aisha's
-   request *"Is the lift to the cinema level working?"* → **Take me there**. On arrival:
-   **I'm here → Open camera** → shoot the lift → Gemini scores it (e.g. *100 · Accessible now*)
-   → **Use as my answer** pre-fills verdict, note, photo and the AI badge → send → reward.
-6. **Hands-free (the agent)** — never touch the screen: *"what tasks are near me?"* → *"take me to
-   the first one"* → (arrive) *"I'm here"* opens the camera → *"answer it: yes, the lift works"*
-   submits the answer and awards the points. As Aisha: *"tanya komuniti sama ada tandas OKU di
-   Gem In Mall dibuka hari ini"* posts the request. *"show the leaderboard"*, *"tukar ke bahasa
-   melayu"*, *"turn on large text"*, *"mute"*, *"open permissions"*, *"log out"* — all by voice.
-7. **BM** toggle, **large text** toggle, and the phone layout (bottom tabs).
-
 ## SDG alignment
 
 SDG 11.7 (universal access to safe, inclusive, accessible public spaces) is the
